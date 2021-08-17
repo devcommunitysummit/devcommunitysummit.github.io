@@ -458,7 +458,7 @@ h1 span							{ font-weight:300; }
 .notime #news					{ margin-top:0; opacity:1; }
 
 #news h5						{ font-size:14px; color:#727272; font-weight:500; margin: 32px 16px 16px; }
-#news p							{ font-size:14px; line-height:20px; color:#212121; margin:16px; text-align:center; }
+#news p							{ font-size:14px; line-height:20px; color:#212121; margin:16px; text-align:left; }
 #news .button 					{ margin-top:8px; }
 #news a:hover,
 #news a:focus					{ text-decoration: underline; }
