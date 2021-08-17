@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 16"
+	 style="enable-background:new 0 0 20 16;" xml:space="preserve">
+<title>Shape</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="main-page-mvp" transform="translate(-1162.000000, -472.000000)" sketch:type="MSArtboardGroup">
+		<g id="Header-_x2F_-Nav-_x2F_-h1-_x2F_-FAB" sketch:type="MSLayerGroup">
+			<g id="FAB" transform="translate(1144.000000, 452.000000)" sketch:type="MSShapeGroup">
+				<g id="ic_local_attraction_24px" transform="translate(16.000000, 16.000000)">
+					<path id="Shape" d="M20,12c0-1.1,0.9-2,2-2V6c0-1.1-0.9-2-2-2H4C2.9,4,2,4.9,2,6v4c1.1,0,2,0.9,2,2s-0.9,2-2,2v4
+						c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2v-4C20.9,14,20,13.1,20,12L20,12z M15.6,16.8L12,14.5l-3.6,2.3l1.1-4.1L6.2,10l4.2-0.2
+						l1.6-4l1.5,3.9l4.2,0.2l-3.3,2.7L15.6,16.8L15.6,16.8z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,165 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* CLEARFIX HACK --------------------------- */
+.cf:before,	.cf:after, tr:before, tr:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix, .cf:after, .tr:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf, tr {
+    *zoom: 1;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+
+
+/* GET PROXIMA NOVA -----*/
+@font-face {
+	font-family: "ProxReg";
+	src: url('../fonts/proximanova-regular-webfont.eot?1404762668');
+	src: url('../fonts/proximanova-regular-webfont.eot?&1404762668#iefix') format('embedded-opentype'), url('../fonts/proximanova-regular-webfont.woff?1404762668') format('woff'), url('../fonts/proximanova-regular-webfont.ttf?1404762668') format('truetype'), url('../fonts/proximanova-regular-webfont.svg?1404762668') format('svg');
+}
+@font-face {
+	font-family: "ProxLight";
+	src: url('../fonts/proxima-nova-light-webfont.eot?1404921104');
+	src: url('../fonts/proxima-nova-light-webfont.eot?&1404921104#iefix') format('embedded-opentype'), url('../fonts/proxima-nova-light-webfont.woff?1404921104') format('woff'), url('../fonts/proxima-nova-light-webfont.ttf?1404921104') format('truetype'), url('../fonts/proxima-nova-light-webfont.svg?1404921104') format('svg');
+}
+@font-face {
+	font-family: "ProxThin";
+	src: url('../fonts/proxima-nova-thin-webfont.eot?1404919754');
+	src: url('../fonts/proxima-nova-thin-webfont.eot?&1404919754#iefix') format('embedded-opentype'), url('../fonts/proxima-nova-thin-webfont.woff?1404919754') format('woff'), url('../fonts/proxima-nova-thin-webfont.ttf?1404919754') format('truetype'), url('../fonts/proxima-nova-thin-webfont.svg?1404919754') format('svg');
+}
+
+@font-face {
+	font-family: 'icons';
+	src:url('../fonts/icons.eot?s575k8');
+	src:url('../fonts/icons.eot?#iefixs575k8') format('embedded-opentype'),
+		url('../fonts/icons.ttf?s575k8') format('truetype'),
+		url('../fonts/icons.woff?s575k8') format('woff'),
+		url('../fonts/icons.svg?s575k8#icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon_"], [class*=" icon_"] {
+	font-family: 'icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon_play:before {
+	content: "\e601";
+}
+.icon_android:before {
+	content: "\e600";
+}
+.icon_apple_watch:before {
+	content: "\e602";
+}
+.icon_cross_platform:before {
+	content: "\e603";
+}
+.icon_enterprise:before {
+	content: "\e604";
+}
+.icon_flag:before {
+	content: "\e605";
+}
+.icon_ios:before {
+	content: "\e606";
+}
+.icon_ipad:before {
+	content: "\e607";
+}
+.icon_iphone:before {
+	content: "\e608";
+}
+.icon_partnerships:before {
+	content: "\e609";
+}
+.icon_pirates:before {
+	content: "\e60a";
+}
+.icon_web:before {
+	content: "\e60b";
+}
+.icon_www:before {
+	content: "\e60c";
+}
+.icon_search:before {
+	content: "\e60d";
+}
+.icon_card:before {
+	content: "\e60e";
+}
+.icon_bank:before {
+	content: "\e60f";
+}
+.icon_star:before {
+	content: "\e610";
+}
+.icon_document:before {
+	content: "\e611";
+}
+.icon_atm:before {
+	content: "\e612";
+}
+.icon_car:before {
+	content: "\e613";
+}
+.icon_house:before {
+	content: "\e614";
+}
+.icon_360:before {
+	content: "\e615";
+}
+.icon_arrowup:before {
+	content: "\e616";
+}
+.icon_arrowdown:before {
+	content: "\e617";
+}
+.icon_arrowleft:before {
+	content: "\e618";
+}
+.icon_arrowright:before {
+	content: "\e619";
+}
+.icon_close:before {
+	content: "\e61a";
+}
+.icon_info:before {
+	content: "\e61b";
+}
+.icon_backarrow:before {
+	content: "\e61c";
+}
+.icon_overflow:before {
+	content: "\e61d";
+}
+
+

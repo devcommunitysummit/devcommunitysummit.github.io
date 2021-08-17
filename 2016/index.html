@@ -1,0 +1,793 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Android Summit 2016</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Search engines -->
+	<meta name="description" content="Android Summit 2016 is a two-day, multi-track event focused on designing, developing and testing for Android.">
+	<!-- Google Plus -->
+	<meta itemprop="name" content="Android Summit">
+	<meta itemprop="description" content="Android Summit 2016 is a two-day, multi-track event focused on designing, developing and testing for Android.">
+	<meta itemprop="image" content="http://www.androidsummit.org/img/android_summit_logo_social.jpg">
+
+	<meta name="theme-color" content="#673AB7">
+
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    
+    <!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ie.css">
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+	<section id="intro">
+		<div class="wrap">
+			<nav id="main_nav">
+				<ul class="cf">
+					<li><a href="#expect">What to expect</a></li>
+					<li><a href="#speakers">Speakers</a></li>
+					<li><a href="#agenda">Agenda</a></li>
+					<li><a href="#sponsor">Sponsor</a></li>
+					<li><a href="#questions">Questions</a></li>
+				</ul>
+			</nav>
+		</div>	
+		<div class="anim_zone">
+			<svg width="378px" height="328.9px" viewBox="0 0 378 328.9" class="white_tri">
+				<path fill="#FFFFFF" d="M377.2,320.3L194,2.9c-2.2-3.8-7.8-3.8-10,0L0.8,320.3c-2.2,3.8,0.6,8.7,5,8.7h366.5C376.7,328.9,379.4,324.1,377.2,320.3z"/>
+			</svg>
+			<svg width="274.6px" height="238.4px" viewBox="0 0 274.6 238.4" class="triangle">
+				<path fill="#673AB7" d="M274.1,234.9L139.3,1.4c-1.1-1.9-2.9-1.9-4,0L0.5,234.9c-1.1,1.9-0.2,3.5,2,3.5h269.6C274.3,238.4,275.2,236.8,274.1,234.9z"/>
+			</svg>
+			<svg width="226px" height="234.7px" viewBox="0 0 226 234.7" enable-background="new 0 0 226 234.7" class="shadow">
+				<path fill="#673AB7" d="M192.1,157.5L131.8,53.1L78.8,0l-8.7,13.3l-36,5.7L17.2,41.9l4,4l-2.7,7.3l-6.8-6.8L0,92.8l33.6,33.6
+					l1.3,6.3L63.2,161h126.9C192.3,161,193.2,159.4,192.1,157.5z"/>
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="181.8694" y1="191.3468" x2="22.9526" y2="32.43">
+					<stop  offset="0" style="stop-color:#673AB7"/>
+					<stop  offset="1" style="stop-color:#4e229d"/>
+				</linearGradient>
+				<path fill="url(#SVGID_1_)" d="M192.1,157.5L131.8,53.1L78.8,0l-8.7,13.3l-36,5.7L17.2,41.9l4,4l-2.7,7.3l-6.8-6.8L0,92.8l33.6,33.6l1.3,6.3L63.2,161h126.9C192.3,161,193.2,159.4,192.1,157.5z"/>
+			</svg>
+
+			<div class="droid">
+				<span class="arm arm_l"></span>
+				<span class="arm arm_r"></span>
+				<svg width="75.4px" height="42.5px" viewBox="0 0 75.4 42.5" class="head">
+					<path fill="#FFFFFF" d="M56.2,12.4L62,1.7c0.3-0.6,0.1-1.3-0.5-1.6C61-0.2,60.3,0,60,0.6l-5.9,10.8c-5-2.2-10.5-3.4-16.4-3.4c-5.9,0-11.4,1.2-16.4,3.4L15.4,0.6c-0.3-0.6-1-0.8-1.6-0.5c-0.6,0.3-0.8,1-0.5,1.6l5.8,10.7C7.8,18.3,0,29.6,0,42.5l75.4,0C75.4,29.6,67.6,18.3,56.2,12.4z M20.5,28.9c-1.7,0-3.1-1.4-3.2-3.2c0-1.7,1.4-3.2,3.2-3.2c1.7,0,3.2,1.4,3.2,3.2C23.7,27.5,22.3,28.9,20.5,28.9z M54.9,28.9c-1.7,0-3.2-1.4-3.2-3.2c0-1.7,1.4-3.2,3.2-3.2c1.7,0,3.2,1.4,3.2,3.2C58,27.4,56.6,28.9,54.9,28.9z"/>
+				</svg>
+				<svg width="74.8px" height="90.2px" viewBox="0 0 74.8 90.2" class="body">
+					<path fill="#FFFFFF" d="M0,0l0,54.3c0,4.9,4,8.9,8.9,8.9l6.1,0l0,18.5c0,4.6,3.8,8.4,8.4,8.4c4.6,0,8.4-3.8,8.4-8.4l0-18.5l11.3,0l0,18.5c0,4.6,3.8,8.4,8.4,8.4c4.6,0,8.4-3.8,8.4-8.4l0-18.5l6.1,0c4.9,0,8.9-4,8.9-8.9l0-54.3L0,0z"/>
+				</svg>
+			</div>
+			<div class="clouds">
+				<span class="cloud cloud1"></span>
+				<span class="cloud cloud2"></span>
+				<span class="cloud cloud3"></span>
+				<span class="cloud cloud4"></span>
+				<span class="cloud cloud5"></span>
+				<span class="cloud cloud6"></span>
+				<span class="cloud cloud7"></span>
+				<span class="cloud cloud8"></span>
+			</div>
+			<svg width="447px" height="666px" viewBox="0 0 447 666" class="cover">
+				<path fill="#FFFFFF" d="M0,0v416h447V0H0z M407.6,362H41.1c-4.4,0-7.2-4.8-5-8.7L219.3,36c2.2-3.8,7.8-3.8,10,0l183.2,317.4C414.8,357.2,412,362,407.6,362z"/>
+			</svg>
+
+			
+			<div class="cover2"></div>
+			<h1>Android<span>Summit</span></h1>
+		</div>
+	</section>
+	
+
+	<section class="big_card card">
+		<h2>Android Summit 2016 is a two-day, multi-track event focused on designing, developing and testing for Android.</h2>
+		<h3><span>August 26 &amp; 27, 2016</span><span>1680 Capital One Drive</span><span>McLean, VA 22102</span></h3>
+	</section>
+
+
+	<section id="news">
+		<div class="wrap">
+			<h4>News</h4>
+			<p>Our event app is now live in Google Play. Check it out!</p>
+			<a href="https://play.google.com/store/apps/details?id=org.androidsummit.eventapp&amp;hl=en" target="_blank" class="button">Download the app</a>
+		</div>
+	</section>
+
+	<section id="expect">
+		<div class="wrap">
+			<h4>What to expect</h4>
+			<ul class="cf">
+				<li class="li1">
+					<img src="img/icon_learn.png" alt="">
+					<p>Learn about Android <span>design, development &amp; testing</span></p>
+				</li>
+				<li class="li2">
+					<img src="img/icon_meet.png" alt="">
+					<p>Meet people who <span>love Android</span></p>
+				</li>
+				<li class="li3">
+					<img src="img/icon_food.png" alt="">
+					<p>Eat delicious food with <span>new friends</span></p>
+				</li>
+				<li class="li4">
+					<img src="img/icon_swag.png" alt="">
+					<p>Get your swag on</p>
+				</li>
+				<li class="li5">
+					<img src="img/icon_celebrate.png" alt="">
+					<p>Help us kick off our 2nd annual <span>Android Summit with a bang!</span></p>
+				</li>
+			</ul>
+			<p class="more">Check out our <a href="conduct.html">code of conduct</a>.</p>
+		</div>
+	</section>
+	
+	<section id="speakers">
+		<div class="wrap">
+			<h4>Speakers</h4>
+			<section class="train keynote">
+				<header>
+					<h5>Keynote</h5>
+				</header>
+				<div class="the_train">
+					<ul class="the_cards cf">
+						<li class="card mini">
+							<div class="pic"><img src="img/speakers/corey_latislaw.jpg" alt="Corey Latislaw"></div>
+							<h6>Corey Latislaw</h6>
+							<h7>Google Developer Expert</h7>
+							<p>Corey Leigh Latislaw is a Google Developer Expert (GDE) in Android who has written several high-profile Android applications at companies large and small. By day, she writes a suite of apps that work flawlessly offline to help OffGrid Electric power a million homes in Africa. At night, she authors videos and books on Android programming, runs an Android consulting firm, and organizes the Philadelphia Google Developer Group. She is passionate about travel, local food, the outdoors, photography, and living in Philly. <a href="http://www.coreylatislaw.com" target="_blank">coreylatislaw.com</a></p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card maxi">
+							<div class="profile">
+								<div class="pic"><img src="img/speakers/corey_latislaw.jpg" alt="Corey Latislaw"></div>
+								<h6>Corey Latislaw</h6>
+								<h7>Google Developer Expert</h7>
+							</div>
+							<div class="bio">
+								<p>Corey Leigh Latislaw is a Google Developer Expert (GDE) in Android who has written several high-profile Android applications at companies large and small. By day, she writes a suite of apps that work flawlessly offline to help OffGrid Electric power a million homes in Africa. At night, she authors videos and books on Android programming, runs an Android consulting firm, and organizes the Philadelphia Google Developer Group. She is passionate about travel, local food, the outdoors, photography, and living in Philly. <a href="http://www.coreylatislaw.com" target="_blank">coreylatislaw.com</a></p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="train dev">
+				<header>
+					<h5>Development Track</h5>
+					<nav>
+						<a href="#" class="prev disabled">Previous</a>
+						<a href="#" class="next">Next</a>
+					</nav>
+				</header>
+				<div class="the_train">
+					<ul class="the_cards cf">
+						<li class="card tall">
+							<div class="pic"><img src="img/speakers/mark_murphy.jpg" alt="Mark Murphy"></div>
+							<h6>Mark Murphy</h6>
+							<h7>CommonsWare Founder / Author</h7>
+							<p>Mark is the founder of CommonsWare and the author of The Busy Coder&rsquo;s Guide to Android Development. He is active in supporting the Android developer community, from answering questions on Stack Overflow to publishing sample code and reusable components as open source.<br><br>A three-time entrepreneur, his experience ranges from consulting on open source and collaborative development for the Fortune 500 to application development on a myriad of platforms. A polished speaker, Mr. Murphy has delivered conference presentations and training sessions on a wide array of topics internationally.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/huyen_tue_dao.jpg" alt="Huyen Tue Dao"></div>
+							<h6>Huyen Tue Dao</h6>
+							<h7>Android Engineer at Trello, GDE</h7>
+							<p>Huyen is an Android developer and Google Developer Expert, a B.S. and M.S. in Computer Engineering from the University of Maryland, a member of the Android team at Trello, and co-producer of the &ldquo;Android Dialogs&rdquo; YouTube channel.<br><br>The only other thing that keeps her up as late as development (and often longer) is gaming: PC, console, board, card, anything.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/antonio_zugaldia.jpg" alt="Antonio Zugaldia"></div>
+							<h6>Antonio Zugaldia</h6>
+							<h7>Android Engineer at Mapbox</h7>
+							<p>Antonio is very passionate about the future of the Android platform, from phones to smartwatches to TVs. Prior to joining Mapbox, Antonio co-founded Silica Labs, a startup focused on wearable software development and worked for the World Health Organization supporting disaster response and preparedness as part of its Emergency Operations Center. Antonio has a degree in Theoretical Physics from the University of Granada in Spain, and he is an active member of the DC developer community. He co-organizes the local Google Developer Group (GDG DC) and co-founded DC Android (DCA).</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/dario_incalza.jpg" alt="Dario Incalza"></div>
+							<h6>Dario Incalza</h6>
+							<h7>Security Engineer at GuardSquare</h7>
+							<p>Dario is a security engineer at GuardSquare, which you may know as the company behind ProGuard and DexGuard. He is passionate about Android and security, and is combining them for the last five years. He has gathered a lot of experience by securing and testing Android applications.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/jared_sheehan.jpg" alt="Jared Sheehan"></div>
+							<h6>Jared Sheehan</h6>
+							<h7>Engineer Lead at Capital One</h7>
+							<p>Jared has been playing with technology all of his life and building mobile applications since Google was making tasty treats like Donut, Eclair and Gingerbread. He enjoys bridging the gap between technology, product and business development teams and bringing them together to ship epic software.<br><br>Jared is an Android Ninja who has shipped over ten android applications and is a co-founder of the DCAndroid Meetup group in Washington, DC.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/mike_evans.jpg" alt="Mike Evans"></div>
+							<h6>Mike Evans</h6>
+							<h7>Android Lead at LivingSocial</h7>
+							<p>Prior to LivingSocial, Mike worked at The Washington Post, and FINRA. He&rsquo;s been writing apps since Cupcake, co-organizer of DC Droids (the DC Android Meetup), and embarrassingly was one of those people walking around with Google Glass at one point.<br><br>His mom also says he&rsquo;s very smart.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/seth_cottle.jpg" alt="Seth Cottle"></div>
+							<h6>Seth Cottle</h6>
+							<h7>UI Designer at Capital One</h7>
+							<p>Seth is a UI Designer at Capital One working on Wallet for Android and iOS. Formerly, Seth has lead the UI Design efforts at a handful of startups, but he also has a strong development background. He was a contracted front-end developer at Google and he has worked on a plethera of Android projects.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/kashif_qureshi.jpg" alt="Kashif Qureshi"></div>
+							<h6>Kashif Qureshi</h6>
+							<h7>Engineer at AOL</h7>
+							<p>Kashif is an Engineer at AOL focused on Android development with experience developing applications for millions of users including the flagship AOL Android app and the new smart email product Alto. He also enjoys applying his design intuition to applications he works on.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			
+			<section class="train design">
+				<header>
+					<h5>Design Track</h5>
+					<nav>
+						<a href="#" class="prev disabled">Previous</a>
+						<a href="#" class="next">Next</a>
+					</nav>
+				</header>
+				<div class="the_train">
+					<ul class="the_cards cf">
+						<li class="card tall">
+							<div class="pic"><img src="img/speakers/liam_spradlin.jpg" alt="Mike Evans"></div>
+							<h6>Liam Spradlin</h6>
+							<h7>Design Lead at touchlab</h7>
+							<p>Liam is a UI/UX and visual designer working on Android, the web, and occasionally iOS. He&rsquo;s the Design Lead at touchlab, America&rsquo;s top Android development and design shop, and a Google Developer Expert in UI/UX. He&rsquo;s worked in agency and freelance contexts with clients including GE Appliance, the National MS Society, and the independent developers of apps like Nova Launcher, AllCast, Today Calendar, and Focus creating compelling interfaces, experiences, print layouts, and visual assets.<br><br>Whether it&rsquo;s type design, interface, or illustration, he spends a lot of his free time continuing to explore design. Outside of that, you can find him behind a camera or writing blog posts.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/max_ignatyev.jpg" alt="Max Ignatyev"></div>
+							<h6>Max Ignatyev</h6>
+							<h7>Founder at Sympli</h7>
+							<p>Max is an iOS/Android developer, former lead developer at the Washington Post, and founder at sympli.io.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/andre_tacuyan.jpg" alt="Andre Tacuyan"></div>
+							<h6>Andre Tacuyan</h6>
+							<h7 class="long">Product Designer at Playground Global</h7>
+							<p>Andre is a product designer who enjoys crafting delightful experiences in many types of mediums. Some of his favorite challenges to solve are in areas like artificial intelligence and augmented reality. At the age of 23, Andre has worked with places like Google and Microsoft to some smaller companies like Ooyala and Anthology. He has a strong passion to make the open and connected world of tomorrow come as seamless as possible for both human and machine. When he&rsquo;s not working on building his AI wife, Andre likes to spend his free time on some of his favorite apps like Snapchat and YouTube.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/amanda_legge.jpg" alt="Amanda Legge"></div>
+							<h6>Amanda Legge</h6>
+							<h7>UI/UX Designer at Capital One</h7>
+							<p>A Silicon Valley native, Amanda began her design career in San Diego, before living and working abroad in both Spain and Switzerland. Now working in Capital One&rsquo;s San Francisco office, Amanda specializes in mobile design. She&rsquo;s obsessed with micro-interactions and animations that are both delightful and have a purpose. Amanda enjoys cooking, working out, and reading entire books in one sitting to prepare for Book Club.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/evan_coutre.jpg" alt="Evan Coutre"></div>
+							<h6>Evan Coutre</h6>
+							<h7>Product Designer at Box</h7>
+							<p>Evan is leading design for mobile and desktop consumer products at Box. He graduated from USC with a degree in computer science and business but gravitated to product design from his passion for art and technology.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/sara_beaver.jpg" alt="Sara Beaver"></div>
+							<h6>Sara Beaver</h6>
+							<h7>UI/UX Designer at Capital One</h7>
+							<p>Sara earned her degree from Millersville University in 2011, directly outside of Lancaster Pennsylvania. After college she moved to Philadelphia to pursue her career in design. She dabbled in both print and web design before she eventually found a love for UX/UI design which led her to her current role at Capital One. Sara has a love for branding as well as simple, clean design. She enjoys working with people and applying empathy research to make the best user experience possible.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/margaret_haag.jpg" alt="Margaret Haag"></div>
+							<h6>Margaret Haag</h6>
+							<h7>Product Designer at Capital One</h7>
+							<p>Margaret is a product designer by day, secret member of the Suicide Squad by night. Previously she was a writer, but for the past eight years she&rsquo;s been a designer (hell yeah!). Her first five years were focused in print, branding and web. For the last three years she&rsquo;s focused on native experiences. Other things she&rsquo;s been: lead designer for the nation&rsquo;s first college news app at USA Today, second-in-command for Capital One&rsquo;s CreditWise iOS app, lead designer for Capital One&rsquo;s CreditWise Android app, and maker of amazing cupcakes.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/vineeth_chohan.jpg" alt="Vineeth Chohan"></div>
+							<h6>Vineeth Chohan</h6>
+							<h7>Software Engineer at Capital One</h7>
+							<p>Vineeth is a Software Engineer at Capital One working on Capital One Mobile for Android. He enjoys developing applications, working with user interfaces and design. Previously, Vineeth worked at Starwood, Inc. Hotels and Resorts as a content manager and front-end developer. He is very passionate about new technologies, gadgets and understanding how things work. When he&rsquo;s not coding he loves cooking and playing guitar.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/ed_murphy.jpg" alt="Ed Murphy"></div>
+							<h6>Ed Murphy</h6>
+							<h7>Master Engineer at Capital One</h7>
+							<p>A designer turned developer, Ed has 15 years of hands-on development experience across a wide range of platforms. As a Tech Lead for a Capital One Android team, he mainly focuses his attention on the Android Platform and the many ins and outs it has to offer.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="train test">
+				<header>
+					<h5>Testing Track</h5>
+					<nav>
+						<a href="#" class="prev disabled">Previous</a>
+						<a href="#" class="next">Next</a>
+					</nav>
+				</header>
+				<div class="the_train">
+					<ul class="the_cards cf">
+						<li class="card tall">
+							<div class="pic"><img src="img/speakers/shauvik_roy_choudhary.jpg" alt="Shauvik Roy Choudhary"></div>
+							<h6 class="long">Shauvik Roy Choudhary</h6>
+							<h7>Founder at MoQuality</h7>
+							<p>Dr. Shauvik Roy Choudhary is the Founder of MoQuality, where he works on building cutting edge testing and support tools for mobile apps. He also works at FullStory where he builds security &amp; engineering productivity tools. He received his PhD in Computer Science from Georgia Tech and his work was focused on techniques for cross-platform testing and maintenance for web and mobile applications. Prior to his PhD, Shauvik received his MS in Information Security from Georgia Tech and his BE in Computer Engineering from Mumbai University. Over the years, he has held several development, testing and research positions at companies including, Google, Fujitsu Labs of America, Yahoo! Inc., IBM Research, Goldman Sachs and HSBC Software. <a href="http://www.shauvik.com/" target="_blank">shauvik.com</a></p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/adam_auerbach.jpg" alt="Adam Auerbach"></div>
+							<h6>Adam Auerbach</h6>
+							<h7>Senior Director at Capital One</h7>
+							<p>Adam Auerbach is the senior director of technology for advanced testing and release services for Capital One. Adam is responsible for Capital One&rsquo;s enterprise performance and automated testing departments as well as enterprise release management and test data management. Since joining Capital One, he has provided leadership for the agile transformation of their quality assurance group and led the enterprise adoption of DevOps and ATDD. Before joining Capital One, Adam was in various leadership positions focusing on quality and agile practices with Chase and other financial and insurance companies.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/uzi_eilon.jpg" alt="Uzi Eilon"></div>
+							<h6>Uzi Eilon</h6>
+							<h7 class="long">Director CTO Office at Perfecto Mobile</h7>
+							<p>Uzi Eilon joined Perfecto in 2008 after a fifteen year career as a software developer and manager at IDF, Netrialty, Comverse and Sundisk. Over the past eight years, Uzi has grown the company by managing expanding R&amp;D teams and leading Sales Engineering teams. His fields of expertise include mobile application testing, automation tools, defining customer projects and on-boarding, plus agile methodologies. Uzi Eilon speaks regularly on behalf of Perfecto at events such as AnDevCon, StarWest and Jenkins.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/paul_bruce.jpg" alt="Paul Bruce"></div>
+							<h6>Paul Bruce</h6>
+							<h7>Developer Evangelist at Perfecto</h7>
+							<p>Paul Bruce advocates, writes, speaks, and organizes activity in software development communities to facilitate cross-team collaboration and encourage creativity. Paul has over a decade of experience as a software developer in web, mobile, and data product management, and previously served as API Product Marketing Manager at SmartBear software. His current research at Perfecto now includes Agile, continuous deployment, automation, full-stack development, and production analytics.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/tom_belk.jpg" alt="Tom Belk"></div>
+							<h6>Tom Belk</h6>
+							<h7>Tech Lead at Capital One</h7>
+							<p>Tom is a Tech Lead working on Capital One Mobile for Android. Luckily he dodged a bullet by picking Android over Web OS back in 2009 (although he still uses his HP Touchpad). Previously Tom worked at Vanguard, building out API services and Android application features. In his free time, he likes to listen to podcasts, bust through board games, and travel his yard in search of Pok&eacute;mon.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/sam_edwards.jpg" alt="Sam Edwards"></div>
+							<h6>Sam Edwards</h6>
+							<h7>Lead Android Engineer at Capital One</h7>
+							<p>Sam&rsquo;s a Lead Android Engineer for mobile payments at Capital One. He has been working with Android since 2011 and has over 12 years of professional software development experience with Java. When he&rsquo;s not coding, he loves traveling and getting photos of himself doing a handstand there. <a href="http://handstandsam.onamap.net/" target="_blank">46 states and 9 countries so far</a></p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/dan_jarvis.jpg" alt="Dan Jarvis"></div>
+							<h6>Dan Jarvis</h6>
+							<h7>Tech Lead at Capital One</h7>
+							<p>Dan is Tech Lead for Capital One Wallet on Android. He&rsquo;s a long time Stack Overflow user who is passionate about automated testing, continuous integration and agile development. He likes clean, maintainable code and lots of logging and monitoring to make sure everything works as it should.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/maharshi_raval.jpg" alt="Maharshi Raval"></div>
+							<h6>Maharshi Raval</h6>
+							<h7>Android QA Lead at Capital One</h7>
+							<p>Maharshi is a QA Lead on the Android Quality Engineering Team at Capital One. Over the years, he has acquired experience in manual and automation testing roles working on different mobile platforms for companies such as Sony, Nokia and Blackberry. When he&rsquo;s not working, he likes to spend quality time with family, read tech blogs and learn about and explore new technologies in the mobile domain.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/thejasvi_akkur.jpg" alt="Thejasvi Akkur"></div>
+							<h6>Thejasvi Akkur</h6>
+							<h7>QA Manager at Capital One</h7>
+							<p>Tejas is a QA Manager working on Capital One Mobile for Android. He has gained experience in the mobile testing space since joining Capital One in 2013, and he currently leads a talented pool of Google Espresso automation engineers in the Android mobile space. When he is not working, he likes to travel and loves playing cricket.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+		</div>
+	</section>
+
+	<section id="agenda" class="show_dev">
+		<h4>Conference / Friday, August 26<sup>th</sup></h4>
+		<ul class="agenda_nav cf">
+			<div class="wrap cf">
+				<li class="active"><a href="#" class="dev_link">Development<span> Track</span></a></li>
+				<li><a href="#" class="design_link">Design<span> Track</span></a></li>
+				<li><a href="#" class="testing_link">Testing<span> Track</span></a></li>
+			</div>	
+		</ul>
+		<div class="wrap">
+			<ul class="key cf">
+				<li class="dev"><span></span> Development Track</li>
+				<li class="design"><span></span> Design Track</li>
+				<li class="testing"><span></span> Testing Track</li>
+			</ul>	
+		</div>
+		<div class="wrap cf day1">	
+			<div class="wrap cf field_wrap">
+				<div class="the_field cf">
+					<ul class="lines">
+						<li>8<span>:00</span> AM</li>
+						<li>9<span>:00</span> AM</li>
+						<li>10<span>:00</span> AM</li>
+						<li>11<span>:00</span> AM</li>
+						<li>12<span>:00</span> PM</li>
+						<li>1<span>:00</span> PM</li>
+						<li>2<span>:00</span> PM</li>
+						<li>3<span>:00</span> PM</li>
+						<li>4<span>:00</span> PM</li>
+						<li>5<span>:00</span> PM</li>
+						<li>6<span>:00</span> PM</li>
+						<li>7<span>:00</span> PM</li>
+						<li>8<span>:00</span> PM</li>
+					</ul>
+					<div class="single">
+						<article class="h4 grey">
+							<h5>Arrival &amp; Breakfast</h5>
+							<h6>8:00 AM&ndash;9:00 AM</h6>
+						</article>
+						<article class="h3 clickable white">
+							<h5>Keynote</h5>
+							<h6>9:00 AM&ndash;9:45 AM &#8226; Corey Latislaw</h6>
+							<p>Description coming soon</p>
+							<div class="person"><div class="pic"><img src="img/speakers/corey_latislaw.jpg" alt="Corey Latislaw"></div><p>Corey Latislaw</p></div>
+							<a href="#" class="close">Close window</a>
+						</article>
+					</div>
+					<div class="triple cf" style="margin-top:-1px;">
+						<div class="dev">
+							<article class="o1 h3 clickable">
+								<h5>Android Application Security, The Right Way</h5>
+								<h6>10:00 AM&ndash;10:45 AM <span>&#8226; Dario Incalza</span></h6>
+								<p>Still too many applications do not meet the high security standards for today&rsquo;s threat landscape. Numerous applications are being attacked and attackers are, unfortunately, often successful at doing so. So in this talk I would like to go over the different attacks that threat Android applications today. Afterwards, I will propose best practices and tools that every Android developer can use to secure his application, and by doing so, significantly raising the bar for hackers. This talk aims to illustrate that not every developer needs to be a security expert in order to harden their application.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/dario_incalza.jpg" alt="Dario Incalza"></div><p>Dario Incalza</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="o1 h3 clickable">
+								<h5>Measure, Layout, Draw, Repeat: Custom Views and ViewGroup</h5>
+								<h6>11:00 AM&ndash;11:45 AM <span>&#8226; Huyen Tue Dao</span></h6>
+								<p>Sometimes the Android platform layouts and widgets are all you need. Sometimes you need more control over design and interaction. Sometimes you need some performance help. Custom Views and ViewGroups are powerful tools, but with great power comes great complexity.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/huyen_tue_dao.jpg" alt="Huyen Tue Dao"></div><p>Huyen Tue Dao</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+						</div>
+						<div class="design">
+							<article class="o1 h3 clickable">
+								<h5>How to Accomplish a Successful App Redesign</h5>
+								<h6>10:00 AM&ndash;10:45 AM <span>&#8226; Evan Coutre</span></h6>
+								<p>Design and software improves and changes all the time and therefore we are compelled to adapt to keep up with the latest trends as to not be thought of as out of date.<br><br>I will cover how to successfully redesign a product, something that many designers will do at some point in their career. I will use the recent redesign of Box&rsquo;s Android mobile app to illustrate what went well, what I learned along the way and what were the takeaways that you can apply in practice with your own products.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/evan_coutre.jpg" alt="Evan Couture"></div><p>Evan Coutre</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="o1 h3 clickable">
+								<h5>Designers + Developers = X. Let &ldquo;X&rdquo; be &ldquo;The Team&rdquo;</h5>
+								<h6>11:00 AM&ndash;11:45 AM <span>&#8226; Max Ignatyev</span></h6>
+								<p>Collaboration between designers and developers can be tough. We&rsquo;ve all have been there, right? ;)<br><br>As a developer who ended up building a tool used by designers, I will talk about some of the main collaboration challenges teams face and provide solutions on how design and engineering folks can make awesome products more effectively.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/max_ignatyev.jpg" alt="Max Ignatyev"></div><p>Max Ignatyev</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+						</div>
+						<div class="testing">
+							<article class="o1 h3 clickable">
+								<h5>Accelerating UI Testing by Omitting API Services</h5>
+								<h6>10:00 AM&ndash;10:45 AM <span>&#8226; Tom Belk</span></h6>
+								<p>This talk introduces a new open source tool which can be leveraged to manage mocked API services. Discover how it can record and playback API interactions so that your UI tests can run as smoothly as possible and focus on what really matters, your application. I&rsquo;ll cover the tool&rsquo;s inception, its journey to the open source community, how it can be used, and the overall time reductions for some of our most basic network interactions.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/tom_belk.jpg" alt="Tom Belk"></div><p>Tom Belk</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="o1 h3 clickable">
+								<h5>Using Robots for App Testing</h5>
+								<h6>11:00 AM&ndash;11:45 AM <span>&#8226; Shauvik Roy Choudhry</span></h6>
+								<p>Software robots like monkey provide a quick way to validate your application. With robots on new cloud testing services, it is easier than ever to get started testing your app without even having written any tests. In this talk, I will introduce a few tools from both academia and industry, and then cover the basics of how these tools work. You will learn about the strengths and limitations these tools and how to use them effectively to maximize code coverage and catching failures.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/shauvik_roy_choudhary.jpg" alt="Shauvik Roy Choudhry"></div><p>Shauvik Roy Choudhry</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+						</div>
+					</div>
+					<div class="single" style="margin-top:-1px;">
+						<article class="o1 h3 grey">
+							<h5>Lunch</h5>
+							<h6>12:00 PM&ndash;12:45 PM</h6>
+						</article>						
+					</div>
+					<div class="triple cf">
+						<div class="dev">
+							<article class="o1 h2 clickable">
+								<h5>Designed: An Introduction to Design for Developers</h5>
+								<h6>1:00 PM&ndash;1:30 PM <span>&#8226; Seth Cottle</span></h6>
+								<p>This talk will cover the foundations of Material Design and how design helps avoid mistakes. In addition, I&rsquo;ll introduce design tools &amp; resources like Sketch (and various plugins), Zeplin, InVision that will help a design oriented developer build amazing products.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/seth_cottle.jpg" alt="Seth Cottle"></div><p>Seth Cottle</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="h2 clickable even">
+								<h5>ConstraintLayout: One Layout to Rule Them All</h5>
+								<h6>1:30 PM&ndash;2:00 PM <span>&#8226; Kashif Qureshi</span></h6>
+								<p>Come along for a dive into the most powerful layout in the Android Toolkit. Earlier this year, Google previewed the new layout at IO 2016 and is on the verge of being released. We will be looking at the basics of ConstraintLayout and explore how to bulid leaner, meaner UIs with it. You&rsquo;ll walk out of this session ready to implement UIs using ConstraintLayout and drop some knowledge on your peers.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/kashif_qureshi.jpg" alt="Kashif Qureshi"></div><p>Kashif Qureshi</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="h2 clickable">
+								<h5>Kotlin for Android Developers</h5>
+								<h6>2:00 PM&ndash;2:30 PM <span>&#8226; Mike Evans</span></h6>
+								<p>What&rsquo;s the deal with Kotlin? Why would you want to learn a new programming language to write Android apps? Isn&rsquo;t Java good enough? This talk is for those unacquainted with Kotlin, and might teach those who are familiar some new tricks.<br><br>This talk will cover:<br>
+								&ndash; Why Kotlin is a good choice for Android Developers<br>
+								&ndash; How to solve problems in more expressive ways with Kotlin&rsquo;s language features<br>
+								&ndash; Some interesting Kotlin libraries and tools
+								</p>
+								<div class="person"><div class="pic"><img src="img/speakers/mike_evans.jpg" alt="Mike Evans"></div><p>Mike Evans</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="h2 clickable even">
+								<h5>Build Your Own Ride Sharing App on Android</h5>
+								<h6>2:30 PM&ndash;3:00 PM <span>&#8226; Antonio Zugaldia</span></h6>
+								<p>In this presentation we&rsquo;ll use the Open Source Mapbox SDK to build the features typically found in ridesharing apps. For example, we&rsquo;ll show how to animate cars on a map, how to use a fixed marker to pick a user&rsquo;s location, or how to provide turn-by-turn navigation. We&rsquo;ll also mention other advanced features, like map matching,  automatic re-routing, and offline maps.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/antonio_zugaldia.jpg" alt="Antonio Zugaldia"></div><p>Antonio Zugaldia</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="h2 clickable">
+								<h5>Making Sense: Unleash the Power of Sensory Data to Understand User Context</h5>
+								<h6>3:00 PM&ndash;3:30 PM <span>&#8226; Jared Sheehan</span></h6>
+								<p>Mobile devices have hit ubiquity. Games like Angry Birds and productivity apps like Slack are great but they are no longer transformative in the space. When it comes to innovation, Mobile devices and apps have run into a great big wall. What&rsquo;s next? It&rsquo;s no longer good enough to know a user is playing your game; apps must know the where, when and how of a user, to compete and be unique. This session will demonstrate how to harness the power of the hardware sensors to determine user context.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/jared_sheehan.jpg" alt="Jared Sheehan"></div><p>Jared Sheehan</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="h6 clickable even">
+								<h5>Multi-Window &amp; ChromeOS</h5>
+								<h6>3:30 PM&ndash;5:00 PM <span>&#8226; Mark Murphy</span></h6>
+								<p>Vendors large and small have offered multiple windows in their Android devices. Now, with Android 7.0, we are getting multiple windows in standard Android&hellip; and in the new Android-on-ChromeOS environment. This class will explore how to support multi-window modes in your Android applications, with particular emphasis on the split-screen mode for phones and tablets, plus the freeform mode available on ChromeOS (and, perhaps elsewhere). We will look at how your app will behave in these environments without any changes and how you can make minor tweaks to improve your results. We will also examine what quirks will be seen with multi-window mode and what sorts of UX decisions you will need to make as a result. Finally, we will see how you can start testing your app in these modes, to begin making tactical changes and run experiments for longer-term strategic choices.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/mark_murphy.jpg" alt="Mark Murphy"></div><p>Mark Murphy</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+						</div>
+						<div class="design">
+							<article class="o1 h4 clickable">
+								<h5>Mutative Design: What&rsquo;s New in Project Phoebe</h5>
+								<h6>1:00 PM&ndash;2:00 PM <span>&#8226; Liam Spradlin</span></h6>
+								<p>Project Phoebe (<a href="http://www.phoebe.xyz" target="_blank">phoebe.xyz</a>) is the first step toward mutative design &mdash; a new design methodology that would allow interfaces to be born, live, and evolve according to a user&rsquo;s reality.<br><br>It&rsquo;s an idea that looks to solve the problem of designing for averages, and create interfaces that account for all users.<br><br>In this session, we&rsquo;ll take a look at the latest developments in Project Phoebe &mdash; from the theory behind successful mutations to the ways in which our perception of software&rsquo;s abilities and responsibilities will change as we continue to move toward a future where software helps users by knowing them.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/liam_spradlin.jpg" alt="Liam Spradlin"></div><p>Liam Spradlin</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="h2 clickable even">
+								<h5>Extreme Makeover: Android Edition</h5>
+								<h6>2:00 PM&ndash;2:30 PM <span>&#8226; Sara Beaver</span></h6>
+								<p>In this talk I&rsquo;ll discuss the visual transformation of the Capital One Wallet app for Android. I&rsquo;ll explain how we went from following in the footsteps of iOS to making it our own and bringing it more in line with Material Design.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/sara_beaver.jpg" alt="Sara Beaver"></div><p>Sara Beaver</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="h2 clickable">
+								<h5>Designing for Wearables</h5>
+								<h6>2:30 PM&ndash;3:00 PM <span>&#8226; Andre Tacuyan</span></h6>
+								<p>Wearable technology is quickly becoming one of the fastest growing segments in the tech industry today. As designers, it&rsquo;s our role as pioneers to make sure that the experiences for this new form factor are as seamless as possible. I&rsquo;ll go over some best practices and ideas on designing for this new platform as well as show a few examples of my own projects in this space.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/andre_tacuyan.jpg" alt="Andre Tacuyan"></div><p>Andre Tacuyan</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="h2 clickable even">
+								<h5>How Material Design Changed My Life</h5>
+								<h6>3:00 PM&ndash;3:30 PM <span>&#8226; Margaret Haag</span></h6>
+								<p>When I started working at Capital One, I was focused on building the CreditWise experience for iOS (I knew nothing about Material Design). Less than a year later, I was offered the opportunity to be lead designer for Android. Immediately, I wrangled two experts from our enterprise team, jammed with them and after that, taught myself the rest of the system. I would love for you to join me as I share my experience, challenges, how I came to love Material Design, and what we are doing to streamline our three platform design process.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/margaret_haag.jpg" alt="Margaret Haag"></div><p>Margaret Haag</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="h2 clickable">
+								<h5>Prototyping for Android in Principle</h5>
+								<h6>3:30 PM&ndash;4:00 PM <span>&#8226; Amanda Legge</span></h6>
+								<p>Is Principle the right tool for you? I&rsquo;ll do a quick run-down of the many prototyping tools out there and when you should (and should not) use them. Then I&rsquo;ll do a live demo, mocking up some animations using Principle. If you want to follow along, make sure you have Sketch and Principle downloaded on your machine. Both have free-trials versions, but I&rsquo;m sure you&rsquo;ll be reaching for your credit card to buy them after this talk.<br><br><a class="sketch" href="presos/Olympiagram_ForPriniciple.sketch">Download the Sketch file</a></p>
+								<div class="person"><div class="pic"><img src="img/speakers/amanda_legge.jpg" alt="Amanda Legge"></div><p>Amanda Legge</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="h4 clickable even">
+								<h5>Android Development for Designers</h5>
+								<h6>4:00 PM&ndash;5:00 PM <span>&#8226; Ed Murphy &amp; Vineeth Chohan</span></h6>
+								<p>Designing for Android has never been more exciting. To get the absolute most out of the Android Platform it&rsquo;s imperative you understand how the UI framework works. This talk will help fast forward your Android development knowledge and put creativity into perspective. By gaining hands-on experience with Android Studio, you will learn how to implement layouts, UI widgets and develop dynamic views with re-useable resources.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/ed_murphy.jpg" alt="Ed Murphy"></div><p>Ed Murphy</p></div>
+								<div class="person"><div class="pic"><img src="img/speakers/vineeth_chohan.jpg" alt="Vineeth Chohan"></div><p>Vineeth Chohan</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+						</div>
+						<div class="testing">
+							<article class="o1 h2 clickable">
+								<h5>Putting Quality First Through Continuous Testing</h5>
+								<h6>1:00 PM&ndash;1:30 PM <span>&#8226; Adam Auerbach</span></h6>
+								<p>Adam Auerbach will discuss Capital One&rsquo;s transformation to continuous testing, covering core principles, tools, and best practices as well as common roadblocks and some recommendations on how best to remove them from the environment.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/adam_auerbach.jpg" alt="Adam Auerbach"></div><p>Adam Auerbach</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="h2 clickable even">
+								<h5>Tests and Docs: Hand in Hand</h5>
+								<h6>1:30 PM&ndash;2:00 PM <span>&#8226; Shauvik Roy Choudhry</span></h6>
+								<p>For the success of our apps, we often add end user documentation in the form of help notes, tutorials and app demos/tours. Such end user docs are often outdated leading to confused users who make noise on support channels and worse on the play store. Tests also have the same problem &mdash; they need to be updated after the app changes to keep them in sync. However, tests produce pass/fail reports to indicate out of sync problems. So, why not kill two birds with one stone? I&rsquo;ll show how end-to-end UI tests can generate beautiful user docs for happy cases and make sure they're never out of date.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/shauvik_roy_choudhary.jpg" alt="Shauvik Roy Choudhry"></div><p>Shauvik Roy Choudhry</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="h4 clickable">
+								<h5>Continuous Integration for Android Using Jenkins</h5>
+								<h6>2:00 PM&ndash;3:00 PM <span>&#8226; Dan Jarvis &amp; Sam Edwards</span></h6>
+								<p>This talk explains how Jenkins can be used to improve product quality, stability and delivery speed by embracing continuous integration.  We&rsquo;ll walk through how Android developers and testers can benefit from using Jenkins, and then give some pro tips for more advanced capabilities, including how to speed up your tests by running them in parallel across multiple Jenkins slaves.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/dan_jarvis.jpg" alt="Dan Jarvis"></div><p>Dan Jarvis</p></div>
+								<div class="person"><div class="pic"><img src="img/speakers/sam_edwards.jpg" alt="Sam Edwards"></div><p>Sam Edwards</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="h4 clickable even">
+								<h5>Google Espresso Automation &amp; ATDD</h5>
+								<h6>3:00 PM&ndash;4:00 PM <span>&#8226; Thejasvi Akkur &amp; Maharshi Raval</span></h6>
+								<p>Automating mobile native applications is always a challenge with fast evolution of tools and technologies. This talk provides insight of how the Android mobile testing automation transformation from different tools to Google Espresso and how it helps ATDD process.</p>
+								<div class="person"><div class="pic"><img src="img/speakers/thejasvi_akkur.jpg" alt="Thejasvi Akkur"></div><p>Thejasvi Akkur</p></div>
+								<div class="person"><div class="pic"><img src="img/speakers/maharshi_raval.jpg" alt="Maharshi Raval"></div><p>Maharshi Raval</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+							<article class="h4 clickable">
+								<h5>Espresso is awesome, but where are the edges?</h5>
+								<h6>4:00 PM&ndash;5:00 PM <span>&#8226; Uzi Eilon &amp; Paul Bruce</span></h6>
+								<p>The market is rapidly adopting Google&rsquo;s Espresso UI unit test framework. Devs love the speed and stability. But like other testing tools it is not the holy grail. With a goal of delivering fast feedback along the SDLC, what is the complete test automation strategy?</p>
+								<div class="person"><div class="pic"><img src="img/speakers/uzi_eilon.jpg" alt="Uzi Eilon"></div><p>Uzi Eilon</p></div>
+								<div class="person"><div class="pic"><img src="img/speakers/paul_bruce.jpg" alt="Paul Bruce"></div><p>Paul Bruce</p></div>
+								<a href="#" class="close">Close window</a>
+							</article>
+						</div>
+					</div>
+					<div class="single">
+						<article class="h2 grey">
+							<h5>Break</h5>
+							<h6>5:00 PM&ndash;5:30 PM</h6>
+						</article>
+						<article class="h10 grey2">
+							<h5>Reception</h5>
+							<h6>5:30 PM&ndash;8:00 PM</h6>
+						</article>
+					</div>
+				</div>
+			</div>		
+		</div>
+		
+		<h4 class="day2">Hackathon / Saturday, August 27<sup>th</sup></h4>
+		<div class="wrap cf">	
+			<div class="wrap cf field_wrap">
+				<div class="the_field cf day2">
+					<ul class="lines">
+						<li>8<span>:00</span> AM</li>
+						<li>9<span>:00</span> AM</li>
+						<li>10<span>:00</span> AM</li>
+						<li>11<span>:00</span> AM</li>
+						<li>12<span>:00</span> PM</li>
+						<li>1<span>:00</span> PM</li>
+						<li>2<span>:00</span> PM</li>
+						<li>3<span>:00</span> PM</li>
+						<li>4<span>:00</span> PM</li>
+						<li>5<span>:00</span> PM</li>
+						<li>6<span>:00</span> PM</li>
+						<li>7<span>:00</span> PM</li>
+						<li>8<span>:00</span> PM</li>
+						<li>9<span>:00</span> PM</li>
+					</ul>
+					<div class="single active">
+						<article class="h4 grey">
+							<h5>Breakfast &amp; Settling In</h5>
+							<h6>8:00 AM&ndash;9:00 AM</h6>
+						</article>
+						<article class="h2">
+							<h5>Kickoff, Ground Rules &amp; Logistics</h5>
+							<h6>9:00 AM&ndash;9:30 AM</h6>
+						</article>
+						<article class="h10 even">
+							<h5>Hack away!</h5>
+							<h6>9:30 AM&ndash;12:00 PM</h6>
+						</article>
+						<article class="h6 grey">
+							<h5>Lunch Provided</h5>
+							<h6>12:00 PM&ndash;1:30 PM</h6>
+						</article>
+						<article class="h14">
+							<h5>Hack Away!</h5>
+							<h6>1:30 PM&ndash;5:00 PM</h6>
+						</article>
+						<article class="h4 even">
+							<h5>Project Descriptions Due in DevPost</h5>
+							<h6>5:00 PM&ndash;6:00 PM</h6>
+						</article>
+						<article class="h1">
+							<h5>CODE LOCK!</h5>
+							<h6>6:00 PM&ndash;6:15 PM</h6>
+						</article>
+						<article class="h5 grey">
+							<h5>Dinner Provided &mdash; Hack Exhibition &amp; Team Voting</h5>
+							<h6>6:15 PM&ndash;7:30 PM</h6>
+						</article>
+						<article class="h2 o2">
+							<h5>Awards &amp; Closing</h5>
+							<h6>8:00 PM&ndash;8:30 PM</h6>
+						</article>
+					</div>	
+				</div>
+			</div>
+		</div>		
+	</section>
+	
+	<section id="location">
+		<div class="wrap cf">
+			<section class="card locale cf">
+				<div class="pic"></div>
+				<div class="text">
+					<!--<p>August 26 &amp; 27, 2016</p>-->
+					<h5>1680 <span>Capital One Drive</span></h5>
+					<p>McLean, VA 22102</p>
+					<a href="https://www.google.com/maps/place/1680+Capital+One+Dr,+Tysons,+VA+22102/@38.9246176,-77.2151056,17z/data=!3m1!4b1!4m5!3m4!1s0x89b64ac0c6409325:0x4b3f8339bbf58857!8m2!3d38.9246176!4d-77.2129169" target="_blank">Get Directions</a>
+				</div>
+			</section>
+		</div>
+	</section>
+	
+	<section id="sponsor">
+		<div class="wrap">
+			<div>
+				<h4>Sponsor</h4>
+				<a href="https://www.capitalone.com" target="_blank" class="logo"><img src="img/cof_logo.png" alt="Capital One" class="c1"></a>
+			</div>
+			<div>
+				<h4>Partners</h4>
+				<a href="https://www.modev.com/" target="_blank" class="logo"><img src="img/modev_logo.jpg" alt="Modev" class="modev"></a>
+				<a href="http://www.meetup.com/gdg-dc/" target="_blank" class="logo"><img src="img/gdgdc_logo.png" alt="GDG DC" class="gdgdc"></a>
+			</div>
+			<div>
+				<h4>Benefiting</h4>
+				<a href="https://www.womenwhocode.com/" target="_blank" class="logo"><img src="img/wwc_logo.jpg" alt="Women Who Code" class="wwc"></a>
+			</div>
+		</div>
+	</section>
+	
+	<section id="questions">
+		<div class="wrap">
+			<h4>Questions?</h4>
+			<h5>Email us at <a href="mailto:info@androidsummit.org">info@androidsummit.org</a></h5>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="wrap cf">
+			<div class="lefty">
+				<p>Android<span>Summit</span></p>
+			</div>
+			<div class="righty">
+				<p>&copy;2016 All rights reserved. Design by <a href="http://richiehollins.net" target="_blank">Richie Hollins</a>.</p>
+				<p>Corporate logos are used with permission from trademark owners. Online ticketing by <a href="https://www.eventbrite.com/" target="_blank">Eventbrite</a>.</p>
+			</div>
+		</div>
+	</footer>
+
+
+	<div id="modal">
+		<div class="blackout"></div>
+	</div>
+
+</body>
+</html>

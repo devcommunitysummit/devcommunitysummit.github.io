@@ -1,0 +1,40 @@
+#intro, .showtime #intro,
+#intro.h4					{ background:#0086D4 url(../img/logo_ie.png) center center no-repeat!important; height:400px!important; position:absolute!important; border-bottom:80px solid #0086D4; }
+
+#intro .anim_zone			{ display:none!important; }
+
+.card						{ border:1px solid #dadada!important; }
+#speakers .card				{ width:215px!important; }
+
+#speakers .train header a.prev	{ background-image:url(../img/prev.png); }
+#speakers .train header a.next	{ background-image:url(../img/next.png); }
+
+#location .locale				{ width:66%; }
+
+.fab							{ background:url(../img/fab.png) center center no-repeat; background-color:transparent; bottom:-108px; }
+.fab img						{ display:none; }
+
+#modal .card .close				{ background:url(../img/close.png) center center no-repeat; }
+#modal .blackout				{ background:url(../img/modal_bg.png); background-color:transparent; }
+
+
+#agenda .design,
+#agenda .dev					{ width:49%; }
+#agenda article h5				{ font-weight:bold; }
+#agenda article h6				{ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; }
+
+
+#modal article h5,
+#modal article h6,
+#modal article p,
+#modal article .close,
+#modal article .person			{ display:none; }
+
+#modal.loaded article h5,
+#modal.loaded article p,
+#modal.loaded article .close,
+#modal.loaded article .person	{ display:block; }
+#modal.loaded article h6		{ display:block; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; }
+
+
+#modal.show article .close		{ background:url(../img/close_white.png) center center no-repeat; } 

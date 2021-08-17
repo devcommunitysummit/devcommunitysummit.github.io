@@ -1,0 +1,12 @@
+html							{ -webkit-text-size-adjust:none; }
+body							{ font-family:"Roboto","Helvetica Neue",Arial,sans-serif; font-size:14px; line-height:20px; color:#212121; background:#F9F9F9; padding-bottom:48px; }
+
+.wrap							{ width:90%; max-width:720px; margin:0 auto; position:relative; }
+a								{ color:#3D5AFE; text-decoration:none; }
+a:hover, a:focus				{ text-decoration:underline; }
+
+header							{ background:#F2443A; padding:40px 0; margin-bottom:24px; }
+h1								{ color:#fff; font-size:36px; line-height:48px; font-weight:400; letter-spacing:-1px; }
+
+h2								{ font-size:24px; line-height:28px; margin:20px 0 4px; }
+p								{ color:#727272; margin-bottom:12px; }

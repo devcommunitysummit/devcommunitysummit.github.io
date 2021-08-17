@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Android Summit 2015</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Search engines -->
+	<meta name="description" content="Android Summit is a one-day, multi-track conference focused on designing and developing for Android.">
+	<!-- Google Plus -->
+	<meta itemprop="name" content="Android Summit">
+	<meta itemprop="description" content="Android Summit is a one-day, multi-track conference focused on designing and developing for Android.">
+	<meta itemprop="image" content="http://www.androidsummit.org/img/android_summit_logo_social.jpg">
+
+	<meta name="theme-color" content="#0086D4">
+
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    
+    <!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ie.css">
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+	<section id="intro">
+		<div class="wrap">
+			<nav id="main_nav">
+				<ul class="cf">
+					<li><a href="#expect">What to expect</a></li>
+					<li><a href="#speakers">Speakers</a></li>
+					<li><a href="#agenda">Agenda</a></li>
+					<li><a href="#sponsor">Sponsor</a></li>
+					<li><a href="#questions">Questions</a></li>
+				</ul>
+			</nav>
+		</div>	
+		<div class="anim_zone">
+			<svg width="378px" height="328.9px" viewBox="0 0 378 328.9" class="white_tri">
+				<path fill="#FFFFFF" d="M377.2,320.3L194,2.9c-2.2-3.8-7.8-3.8-10,0L0.8,320.3c-2.2,3.8,0.6,8.7,5,8.7h366.5C376.7,328.9,379.4,324.1,377.2,320.3z"/>
+			</svg>
+			<svg width="274.6px" height="238.4px" viewBox="0 0 274.6 238.4" class="triangle">
+				<path fill="#0086D4" d="M274.1,234.9L139.3,1.4c-1.1-1.9-2.9-1.9-4,0L0.5,234.9c-1.1,1.9-0.2,3.5,2,3.5h269.6C274.3,238.4,275.2,236.8,274.1,234.9z"/>
+			</svg>
+			<svg width="226px" height="234.7px" viewBox="0 0 226 234.7" enable-background="new 0 0 226 234.7" class="shadow">
+				<path fill="#0086D4" d="M192.1,157.5L131.8,53.1L78.8,0l-8.7,13.3l-36,5.7L17.2,41.9l4,4l-2.7,7.3l-6.8-6.8L0,92.8l33.6,33.6
+					l1.3,6.3L63.2,161h126.9C192.3,161,193.2,159.4,192.1,157.5z"/>
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="181.8694" y1="191.3468" x2="22.9526" y2="32.43">
+					<stop  offset="0" style="stop-color:#0086D4"/>
+					<stop  offset="1" style="stop-color:#0068B8"/>
+				</linearGradient>
+				<path fill="url(#SVGID_1_)" d="M192.1,157.5L131.8,53.1L78.8,0l-8.7,13.3l-36,5.7L17.2,41.9l4,4l-2.7,7.3l-6.8-6.8L0,92.8l33.6,33.6l1.3,6.3L63.2,161h126.9C192.3,161,193.2,159.4,192.1,157.5z"/>
+			</svg>
+
+			<div class="droid">
+				<span class="arm arm_l"></span>
+				<span class="arm arm_r"></span>
+				<svg width="75.4px" height="42.5px" viewBox="0 0 75.4 42.5" class="head">
+					<path fill="#FFFFFF" d="M56.2,12.4L62,1.7c0.3-0.6,0.1-1.3-0.5-1.6C61-0.2,60.3,0,60,0.6l-5.9,10.8c-5-2.2-10.5-3.4-16.4-3.4c-5.9,0-11.4,1.2-16.4,3.4L15.4,0.6c-0.3-0.6-1-0.8-1.6-0.5c-0.6,0.3-0.8,1-0.5,1.6l5.8,10.7C7.8,18.3,0,29.6,0,42.5l75.4,0C75.4,29.6,67.6,18.3,56.2,12.4z M20.5,28.9c-1.7,0-3.1-1.4-3.2-3.2c0-1.7,1.4-3.2,3.2-3.2c1.7,0,3.2,1.4,3.2,3.2C23.7,27.5,22.3,28.9,20.5,28.9z M54.9,28.9c-1.7,0-3.2-1.4-3.2-3.2c0-1.7,1.4-3.2,3.2-3.2c1.7,0,3.2,1.4,3.2,3.2C58,27.4,56.6,28.9,54.9,28.9z"/>
+				</svg>
+				<svg width="74.8px" height="90.2px" viewBox="0 0 74.8 90.2" class="body">
+					<path fill="#FFFFFF" d="M0,0l0,54.3c0,4.9,4,8.9,8.9,8.9l6.1,0l0,18.5c0,4.6,3.8,8.4,8.4,8.4c4.6,0,8.4-3.8,8.4-8.4l0-18.5l11.3,0l0,18.5c0,4.6,3.8,8.4,8.4,8.4c4.6,0,8.4-3.8,8.4-8.4l0-18.5l6.1,0c4.9,0,8.9-4,8.9-8.9l0-54.3L0,0z"/>
+				</svg>
+			</div>
+			<div class="clouds">
+				<span class="cloud cloud1"></span>
+				<span class="cloud cloud2"></span>
+				<span class="cloud cloud3"></span>
+				<span class="cloud cloud4"></span>
+				<span class="cloud cloud5"></span>
+				<span class="cloud cloud6"></span>
+				<span class="cloud cloud7"></span>
+				<span class="cloud cloud8"></span>
+			</div>
+			<svg width="447px" height="666px" viewBox="0 0 447 666" class="cover">
+				<path fill="#FFFFFF" d="M0,0v416h447V0H0z M407.6,362H41.1c-4.4,0-7.2-4.8-5-8.7L219.3,36c2.2-3.8,7.8-3.8,10,0l183.2,317.4C414.8,357.2,412,362,407.6,362z"/>
+			</svg>
+
+			
+			<div class="cover2"></div>
+			<h1>Android<span>Summit</span></h1>
+		</div>
+	</section>
+	
+
+	<section class="big_card card">
+		<h2>Android Summit is a one-day, multi-track conference focused on designing and developing for Android.</h2>
+		<h3><span>Sept<i>ember</i> 30, 2015</span><span>Capital One DIG <i>Event Space</i></span><span>Vienna, VA</span></h3>
+	</section>
+
+
+	<section id="expect">
+		<div class="wrap">
+			<h4>What to expect</h4>
+			<ul class="cf">
+				<li class="li1">
+					<img src="img/icon_learn.png">
+					<p>Learn about Android <span>design &amp; development</span></p>
+				</li>
+				<li class="li2">
+					<img src="img/icon_meet.png">
+					<p>Meet people who <span>love Android</span></p>
+				</li>
+				<li class="li3">
+					<img src="img/icon_food.png">
+					<p>Eat delicious food with <span>new friends</span></p>
+				</li>
+				<li class="li4">
+					<img src="img/icon_swag.png">
+					<p>Get your swag on</p>
+				</li>
+				<li class="li5">
+					<img src="img/icon_celebrate.png">
+					<p>Help us kick off our first <span>Android Summit with a bang!</span></p>
+				</li>
+			</ul>
+			<p class="more">Developers: Make sure you bring your laptop with the latest stable/canary Android Studio and API 23 SDK/tools!<br><br>Everybody: Check out our <a href="conduct.html">Code of Conduct</a>.</p>
+			<a href="https://play.google.com/store/apps/details?id=org.androidsummit.eventapp&hl=en" target="_blank" class="button">Download the app</a>
+		</div>
+	</section>
+	
+	
+	<section id="speakers">
+		<div class="wrap">
+			<h4>Speakers</h4>
+			<section class="train dev">
+				<header>
+					<h5>Development Track</h5>
+					<nav>
+						<a href="#" class="prev disabled">Previous</a>
+						<a href="#" class="next">Next</a>
+					</nav>
+				</header>
+				<div class="the_train">
+					<ul class="the_cards cf">
+						<li class="card">
+							<div class="pic"><img src="img/speakers/chiu-ki.jpg" alt="Chiu-Ki Chan"></div>
+							<h6>Chiu-Ki Chan</h6>
+							<h7>Google Developer Expert</h7>
+							<span class="tag">Keynote</span>
+							<p>Chiu-Ki is an Android developer with a passion in speaking and teaching. She has spoken at numerous conferences all over the world, and has been recognized as a Google Developer Expert for her extensive knowledge in Android. She runs her own mobile development company, producing delightful apps such as &ldquo;Monkey Write&rdquo; for learning Chinese writing, &ldquo;Heart Collage&rdquo; for snapping photos to stitch into a heart, and &ldquo;Fit Cat&rdquo; which gets more athletic the more you walk.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/david_scannell.jpg" alt="David Scannell"></div>
+							<h6>David Scannell</h6>
+							<h7>Developer Advocate, Google</h7>
+							<p>David Scannell is a developer advocate who ensures software teams are successful and operating at their best using Google technologies. He uses his wide range of software development experience, ranging from bootstrapped startups to writing large-scale enterprise systems, to help engineering teams of all sizes in the retail and financial sector.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card tall">
+							<div class="pic"><img src="img/speakers/mark_murphy.jpg" alt="Mark Murphy"></div>
+							<h6>Mark Murphy</h6>
+							<h7>CommonsWare Founder / Author</h7>
+							<p>Mark Murphy is the founder of CommonsWare and the author of The Busy Coder&rsquo;s Guide to Android Development. He is active in supporting the Android developer community, from answering questions on Stack Overflow to publishing sample code and reusable components as open source.<br><br>A three-time entrepreneur, his experience ranges from consulting on open source and collaborative development for the Fortune 500 to application development on a myriad of platforms. A polished speaker, Mr. Murphy has delivered conference presentations and training sessions on a wide array of topics internationally.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/annyce_davis.jpg" alt="Annyce Davis"></div>
+							<h6>Annyce Davis</h6>
+							<h7>Senior Engineer, Washington Post</h7>
+							<p>Annyce works as a Senior Software Engineer at The Washington Post. She has spent the past 4 years developing applications for the Android ecosystem across multiple form factors. She loves mobile development but enjoys the challenges that come with building database-backed web applications. She is active in the Washington, DC tech scene and assists with running a local meetup focused on innovation in the media industry.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/jordan_arrieta.jpg" alt="Jordan Arrieta"></div>
+							<h6>Jordan Arrieta</h6>
+							<h7>Engineer, Capital One</h7>
+							<p>Named after the great Michael Jordan, Jordan Arrieta is an avid Android developer. After graduating from the University of Illinois in computer engineering, he now works as a software engineer with Capital One. While developing on the Capital One Android app, he also is interested in developing for Android Wear. Besides performing slam dunks in the Android scene, Jordan enjoys playing piano, basketball, and eating lots of good food!</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/kevin_moore.jpg" alt="Kevin Moore"></div>
+							<h6>Kevin Moore</h6>
+							<h7>Master Engineer, Capital One</h7>
+							<p>Kevin works at Capital One as an Android developer. He has been developing Android apps for 5 years starting with Cupcake and has developed video, social, banking and podcast apps along with a custom version of Ice Cream Sandwich.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/surendra_devarashetty.jpg" alt="Surendra Devarashetty"></div>
+							<h6 class="long">Surendra Devarashetty</h6>
+							<h7>Engineer Lead, Capital One</h7>
+							<p>Surendra currently works at Capital One as an Android Lead. He has developed location- and context-based applications during the early days of Android, and recently developed SDKs and Android applications in the enhanced photography domain. When not coding he is mentoring high school students on robotics to inspire them to take up a career in science and engineering.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/pete_varvarezis.jpg" alt="Pete Varvarezis"></div>
+							<h6>Pete Varvarezis</h6>
+							<h7>Platform Architect, Capital One</h7>
+							<p>Panayiotis &ldquo;Pete&rdquo; Varvarezis currently works as Capital One&rsquo;s Android Platform Architect. A technologist at heart, Pete has worked on all levels of the software stack. Writing kernel drivers, REST services, Windows programs and Android/Wear/Glass apps are just a few of the things he&rsquo;ll admit to having worked on.<br><br>When he&rsquo;s not writing code, Pete is either traveling or unwinding in front of his computer playing video games.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			
+			<section class="train design">
+				<header>
+					<h5>Design Track</h5>
+					<nav>
+						<a href="#" class="prev disabled">Previous</a>
+						<a href="#" class="next">Next</a>
+					</nav>
+				</header>
+				<div class="the_train">
+					<ul class="the_cards cf">
+						<li class="card tall">
+							<div class="pic"><img src="img/speakers/dan_makoski.jpg" alt="Dan Makoski"></div>
+							<h6>Dan Makoski</h6>
+							<h7>VP of Design, Capital One</h7>
+							<span class="tag">Keynote</span>
+							<p>Dan&rsquo;s mission is to thoughtfully design epic experiences in collaboration with the people who inspire innovation. He is currently VP of Design at Capital One, focused on delivering a breakthrough experience in mobile payments with a small band of pirates based in a creative San Francisco outpost.<br><br>Previously, Dan worked directly for Dr. Regina Dugan, (former head of DARPA and now captain of Google&rsquo;s ATAP: Advanced Technology &amp; Projects), who exclusively hires innovation leaders for fixed 2-year terms. He started and guided design for Google&rsquo;s Project Ara and led design and/or research for products including the Moto X, Moto Skip, new RAZR, Mac Office, Microsoft Surface 1.0, Dell Studio Hybrid, Verizon.com and United.com.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/joel_newman.jpg" alt="Joel Newman"></div>
+							<h6>Joel Newman</h6>
+							<h7>Business Development, Google</h7>
+							<p>Joel Newman manages the &ldquo;Utilities&rdquo; cluster for the Google Play Apps Business Development team. In that capacity, he works with the largest and most strategic finance, photography, weather and personalization app developers to help them successfully design, develop and distribute on the Android platform. Prior to his time on the Play team, Joel worked in mobile advertising, both at Google and with several publishers.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/zack_sultan.jpg" alt="Zack Sultan"></div>
+							<h6>Zack Sultan</h6>
+							<h7>Designer, Tumblr</h7>
+							<p>Zack Sultan works at Tumblr, where he designs such applications as Tumblr, Tumblr for Android, and Tumblr.com: The Website. Occasionally, he makes logos and icons. Previously, he worked in advertising, designing apps and other stuff for brands like Coca-Cola and Sephora.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/kevin_grant.jpg" alt="Kevin Grant"></div>
+							<h6>Kevin Grant</h6>
+							<h7>Engineering Manager, Tumblr</h7>
+							<p>Kevin Grant is an Engineering Manager at Tumblr, working with a team of talented engineers to empower Tumblr&rsquo;s creators to showcase beautiful content. Previously, he's worked as an Android Engineer on various applications creating and implementing unique and creative interfaces.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/dan_jones.jpg" alt="Dan Jones"></div>
+							<h6>Dan Jones</h6>
+							<h7>Design Lead, Capital One</h7>
+							<p>Dan Jones leads the UK Design Team at Capital One in designing amazing experiences across web, mobile and wearables. He joined Capital One from Microsoft where he led the UX Community of Practice. Outside of work he's a vinyl fiend and a beer connoisseur (or so he likes to persuade himself). Make sure you chat with him about sound design, motion design &amp; why Framer is the greatest thing since sliced bread.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/syeef_karim.jpg" alt="Syeef Karim"></div>
+							<h6>Syeef Karim</h6>
+							<h7>UX Designer, Capital One</h7>
+							<p>Syeef is an UX Designer at Capital One, where he is part of the team behind the new mobile app in the UK. He is also actively involved with Major League Hacking and the University Hackathon community. Follow him on Twitter @syeefk.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/dan_cottner.jpg" alt="Dan Cottner"></div>
+							<h6>Dan Cottner</h6>
+							<h7>Design Lead, Capital One</h7>
+							<p>Dan Cottner is the design lead on the latest version of Capital One&rsquo;s servicing app for Android. Before that he worked on flagship experiences for iPhone, iPad, and the Capital One website. In a previous life he was medical illustrator who created visuals and diagrams for use in court cases and pharmaceutical literature. In his free time he likes listening to bizarre music, playing drums, juggling fire, and kicking it with his three cats.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/kim_spencer.jpg" alt="Kim Spencer"></div>
+							<h6>Kim Spencer</h6>
+							<h7>Mobile UI/UX Designer, Capital One</h7>
+							<p>Kim Spencer earned her first BFA in glass working and furniture design from Virginia Commonwealth University before heading back for a second BFA in visual communication. In addition to electronic domination, she has a passion for crafting things by hand with real materials. She helps lead a series of hands-on workshops that act to refill the creative well.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card tall">
+							<div class="pic"><img src="img/speakers/bonnie_sampson.jpg" alt="Bonnie Sampson"></div>
+							<h6>Bonnie Sampson</h6>
+							<h7>UX Designer, Capital One</h7>
+							<p>Bonnie considers herself a creative explorer. She currently works as a UX Designer for Capital One, focusing on consumer identity. She has over 13 years of experience in design, UX and IA working for agencies both large and small. She started her career as an architect and has carried her love for problem solving and critical thinking into the product world. She has owned 2 small businesses and taught 2D &amp; 3D design at Moore College of Art and Drexel University. She currently lives with her 8-year-old Pitt Mix Daisy and spends her free time serving her church, rock climbing, and painting.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/sara_beaver.jpg" alt="Sara Beaver"></div>
+							<h6>Sara Beaver</h6>
+							<h7>UI/UX Designer, Capital One</h7>
+							<p>Sara earned her degree from Millersville University in 2011, directly outside of Lancaster Pennsylvania. After college she moved to Philadelphia to pursue her career in design. She dabbled in both print and web design before she eventually found a love for UX/UI design which led her to her current role at Capital One. Sara has a love for branding as well as simple, clean design. She enjoys working with people and applying empathy research to make the best user experience possible.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card tall">
+							<div class="pic"><img src="img/speakers/sarah_gould.jpg" alt="Sarah Gould"></div>
+							<h6>Sarah Gould</h6>
+							<h7>UX Design, AQUENT | Capital One</h7>
+							<p>About 2 years ago, Sarah got the opportunity to dig into UI/UX design and absolutely loved it. For the past year she's been on the Capital One Android Wallet team creating wireframes, assets, and hi-res layouts.<br><br>In her free time I lead a group on meetup.com called Anti-Agoraphobics Anonymous with the slogan of &ldquo;Let&rsquo;s Do Something Offbeat!&rdquo; where they take part in a wide variety of events including game nights, celebrating random food holidays, and everything in between! She also enjoys reading books, baking, and painting.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card tall">
+							<div class="pic"><img src="img/speakers/katie_thompson.jpg" alt="Katie Thompson"></div>
+							<h6>Katie Thompson</h6>
+							<h7>Engineer, Capital One</h7>
+							<p>Katie Thompson is an incorrigible engineer. Having graduated from Carnegie Mellon with a degree in materials engineering and biomedical engineering, she now works as a software engineer at Capital One. She worked on the Capital One iPhone app and is currently working on the Android version. She is the resident ballerina on the mobile teams, making up for her height by standing on her tip toes while coding. When she is not dancing, Katie enjoys trying new recipes, watching cute puppy videos and playing racquetball with her husband.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card">
+							<div class="pic"><img src="img/speakers/jeff_goss.jpg" alt="Jeff Goss"></div>
+							<h6>Jeff Goss</h6>
+							<h7>UX Design, AQUENT | Capital One</h7>
+							<p>Jeff is a user experience designer that gets in the weeds with developers and encourages team collaboration as much as possible. After co-founding two startups in San Francisco, he joined Capital One to pursue his passion for helping humans manage and interact with their finances. When not advocating for Google&rsquo;s Material Design with other designers, you&rsquo;ll find Jeff roaming the museums around DC, camping in a hammock, or enjoying brunch (French Toast rocks!).</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+						<li class="card tall">
+							<div class="pic"><img src="img/speakers/richie_hollins.jpg" alt="Richie Hollins"></div>
+							<h6>Richie Hollins</h6>
+							<h7>Visual Design Lead, Capital One</h7>
+							<p>Richie Hollins has been pushing pixels since he was 8 years old, starting with Mario Paint for SNES. That silly game had a profound effect on him, forging a passion for graphic design, iconography, music, and animation. That passion has grown into a serious career, as Richie is now Visual Design Lead for Capital One's flagship applications across iOS and Web.<br><br>When he's not designing or developing badassery on his MacBook, Richie can be found crushing power ballads in his 80's tribute band Tëaze, or hanging out with his wife and two crazy kiddos.</p>
+							<a href="#" class="more">Read more</a>
+							<a href="#" class="close">Close window</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</section>
+
+	<section id="agenda" class="show_dev">
+		<div class="wrap cf">
+			<h4>Agenda</h4>
+		</div>
+		<ul class="mobile_nav cf">
+			<li class="active"><a href="#" class="dev_link">Development<span> Track</span></a></li>
+			<li><a href="#" class="design_link">Design<span> Track</span></a></li>
+		</ul>
+		<div class="wrap cf field_wrap">
+			<div class="the_field cf">
+				<ul class="lines">
+					<li>7<span>:00</span> AM</li>
+					<li>8<span>:00</span> AM</li>
+					<li>9<span>:00</span> AM</li>
+					<li>10<span>:00</span> AM</li>
+					<li>11<span>:00</span> AM</li>
+					<li>12<span>:00</span> PM</li>
+					<li>1<span>:00</span> PM</li>
+					<li>2<span>:00</span> PM</li>
+					<li>3<span>:00</span> PM</li>
+					<li>4<span>:00</span> PM</li>
+					<li>5<span>:00</span> PM</li>
+					<li>6<span>:00</span> PM</li>
+				</ul>
+				<div class="single">
+					<article class="o2 h6">
+						<h5>Breakfast</h5>
+						<h6>7:30 AM&ndash;9:00 AM</h6>
+					</article>
+					<article class="h1">
+						<h5>Welcome</h5>
+						<h6>9:00 AM&ndash;9:15 AM</h6>
+					</article>
+					<article class="h2 clickable">
+						<h5>Design Keynote: Open Design</h5>
+						<h6>9:15 AM&ndash;9:45 AM <span>&#8226; Dan Makoski</span></h6>
+						<p>People are amazing. They are unique and tribal, emotional and rational, don&rsquo;t always know what they want, yet can dream of an incredible future. And if we&rsquo;re honest with ourselves, their experiences with the things we design and create is the ultimate measure of our success. The physics and chemistry of this reality poses fundamental challenges to traditional notions of design. This talk proposes that a radically open design process is the key to unlocking the power latent in extraordinary, everyday people.</p>
+						<div class="person"><div class="pic"><img src="img/speakers/dan_makoski.jpg" alt="Dan Makoski"></div><p>Dan Makoski</p></div>
+						<div class="talks">
+							<a class="vid" href="https://youtu.be/BxIH_TOfd24" target="_blank">Watch the Keynote</a>
+							<a class="preso" href="presos/open_design_makoski.pdf" target="_blank">View the Slides</a>
+						</div>
+						<a href="#" class="close">Close window</a>
+					</article>
+					<article class="h2 clickable">
+						<h5>Development Keynote: How to be an Android Expert</h5>
+						<h6>9:45 AM&ndash;10:15 AM <span>&#8226; Chiu-Ki Chan</span></h6>
+						<p>Think of an Android expert. Why do you consider this person an expert? &ldquo;She knows a lot about Android&rdquo;, you say. But how do you know? You know because she shares her knowledge, through blogs, talks, StackOverflow etc.<br><br>Experts are just that, people who share their knowledge. Sharing puts you in a positive feedback loop: the more you share, the more knowledgeable you become. Let me walk you through some concrete steps you can take to start sharing and build up your expertise.</p>
+						<div class="person"><div class="pic"><img src="img/speakers/chiu-ki.jpg" alt="Chiu-Ki Chan"></div><p>Chiu-Ki Chan</p></div>
+						<div class="talks">
+							<a class="vid" href="https://youtu.be/IMSY1uH4nT8" target="_blank">Watch the Keynote</a>
+							<a class="preso" href="http://www.slideshare.net/chiuki/how-to-be-an-android-expert" target="_blank">View the Slides</a>
+						</div>
+						<a href="#" class="close">Close window</a>
+					</article>
+				</div>
+				<div class="double cf">
+					<div class="dev">
+						<article class="h3 clickable">
+							<h5>Android M Doze &amp; App Standby</h5>
+							<h6>10:15 AM&ndash;11:00 AM <span>&#8226; David Scannell</span></h6>
+							<p>Android Marshmallow introduces Doze &amp; App Standby in order to extend the battery life of a device. This talk will dive into when these modes are activated, the restrictions they impose on apps, and what developers can do to optimize for it.</p>
+							<div class="person"><div class="pic"><img src="img/speakers/david_scannell.jpg" alt="David Scannell"></div><p>David Scannell</p></div>
+							<div class="talks">
+								<a class="preso" href="presos/doze_app_standby_scannell.pdf" target="_blank">View the Slides</a>
+							</div>
+							<a href="#" class="close">Close window</a>
+						</article>
+						<article class="h3 clickable">
+							<h5>Trusting Your Android: Authentication in Marshmallow</h5>
+							<h6>11:00 AM&ndash;11:45 AM <span>&#8226; Pete Varvarezis</span></h6>
+							<p>New authentication models join the Android SDK in its latest release: Fingerprint (whatever you do, don&rsquo;t call it TouchID) and Confirm Credentials. Join us as we discuss these new features, what&rsquo;s provided by the SDK and how to integrate fingerprint and confirm credentials into your apps. With Marshmallow, there&rsquo;s every reason to start trusting your Android!</p>
+							<div class="person"><div class="pic"><img src="img/speakers/pete_varvarezis.jpg" alt="Pete Varvarezis"></div><p>Pete Varvarezis</p></div>
+							<div class="talks">
+								<a class="preso" href="presos/marshmallow_auth_varvarezis.pdf" target="_blank">View the Slides</a>
+							</div>
+							<a href="#" class="close">Close window</a>
+						</article>
+						<article class="h3 clickable">
+							<h5>Android Libraries - Knowing When &amp; What to Consider</h5>
+							<h6>11:45 AM&ndash;12:30 PM <span>&#8226; Annyce Davis</span></h6>
+							<p>The number of Android Libraries available is enormous and that number continues to grow day-by-day! But should you try to incorporate them all into your application? Do you really need to use EventBus, RxJava, and Custom Observables? How many different image libraries have you included? Hopefully you get the point, great Android apps only include what&rsquo;s needed to achieve the goals of the product, not enhance the resume of the developer.<br><br>In this talk learn four components essential to developing maintainable Android applications. What criteria should you use when choosing a library to include in your project? What simple changes can you adopt to improve your domain design? What tools are available to assist you in delivering high quality code? What can you start doing today to make your app more maintainable? Walk away with the tools you need to be a good Android citizen!</p>
+							<div class="person"><div class="pic"><img src="img/speakers/annyce_davis.jpg" alt="Annyce Davis"></div><p>Annyce Davis</p></div>
+							<div class="talks">
+								<a class="preso" href="http://goo.gl/ElgPWK" target="_blank">View the Slides</a>
+							</div>
+							<a href="#" class="close">Close window</a>
+						</article>
+					</div>
+					<div class="design">
+						<article class="h3 clickable">
+							<h5>Flourishing in a Material World</h5>
+							<h6>10:15 AM&ndash;11:00 AM <span>&#8226; Joel Newman</span></h6>
+							<p>Developers of Android will inevitably be familiar with the term &ldquo;Material Design&rdquo;, but what does that mean, exactly? This talk will answer that question by explaining the fundamental principles underlying Material Design, why Material Design is beneficial for developers and how developers can implement it in their Android applications. It will also include case studies of developers who&rsquo;ve successfully implemented Material principles and seen amazing returns.</p>
+							<div class="person"><div class="pic"><img src="img/speakers/joel_newman.jpg" alt="Joel Newman"></div><p>Joel Newman</p></div><div class="talks">
+								<a class="preso" href="presos/material_world_newman.pdf" target="_blank">View the Slides</a>
+							</div>
+							<a href="#" class="close">Close window</a>
+						</article>
+						<article class="h3 clickable">
+							<h5>Think like an Animator</h5>
+							<h6>11:00 AM&ndash;11:45 AM <span>&#8226; Zack Sultan &amp; Kevin Grant</span></h6>
+							<p>Due to a variety of issues, Android&rsquo;s design is typically left in the wayside to its iOS brethren, leaving the unsuspecting Android developer to their own discretion in bringing a product to life in a different ecosystem.<br><br>Interfaces jump and pop around, flickering in and out on linear paths with little regard to a feeling of consistency or purpose. List views slam gracelessly into walls. Transitions between screens are chunky, aimless zooms. Even much of the much-touted &ldquo;Material design&rdquo; is clunky. It makes otherwise useful and nice looking apps feel confusing and second rate.<br><br>That means more confusion and less engagement among your users.<br><br>The solution: Android engineers need to become animators. We cover basic principles of animation, how these can be applied to the Android platform, and how to work with designers (or on your own) to mock them up.</p>
+							<div class="person"><div class="pic"><img src="img/speakers/zack_sultan.jpg" alt="Zack Sultan"></div><p>Zack Sultan</p></div>
+							<div class="person"><div class="pic"><img src="img/speakers/kevin_grant.jpg" alt="Kevin Grant"></div><p>Kevin Grant</p></div>
+							<div class="talks">
+								<a class="preso" href="presos/think_like_an_animator_grant_sultan.pdf" target="_blank">View the Slides</a>
+							</div>
+							<a href="#" class="close">Close window</a>
+						</article>
+						<article class="h3 clickable">
+							<h5>Can&rsquo;t you just make it look like the iPhone app?</h5>
+							<h6>11:45 AM&ndash;12:30 PM <span>&#8226; Dan Jones &amp; Syeef Karim</span></h6>
+							<p>Sy and Dan will tell the story of how collaboration between design and engineering raised Capital One UK&rsquo;s Android app from being an obligation to a first class citizen. They&rsquo;ll discuss the part Material Design played in overturning preconceptions about Android, how it inspired the look and feel of the iOS app, and the lessons they&rsquo;ve learned along the way.</p>
+							<div class="person"><div class="pic"><img src="img/speakers/dan_jones.jpg" alt="Dan Jones"></div><p>Dan Jones</p></div>
+							<div class="person"><div class="pic"><img src="img/speakers/syeef_karim.jpg" alt="Syeef Karim"></div><p>Syeef Karim</p></div>
+							<div class="talks">
+								<a class="preso" href="presos/make_like_iphone_karim_jones.pdf" target="_blank">View the Slides</a>
+							</div>
+							<a href="#" class="close">Close window</a>
+						</article>
+					</div>
+				</div>
+				<div class="single">
+					<article class="h4">
+						<h5>Lunch</h5>
+						<h6>12:30 PM&ndash;1:30 PM</h6>
+					</article>
+				</div>
+				<div class="double cf">
+					<div class="dev">
+						<article class="h6 clickable">
+							<h5>Workshop: Android Marshmallow Permissions</h5>
+							<h6>1:30 PM&ndash;3:00 PM <span>&#8226; Mark Murphy</span></h6>
+							<p>Android 6.0 changed how we work with certain &ldquo;dangerous&rdquo; permissions, such as reading contacts, writing to external storage, or using the camera. It used to be that all you needed to do was request them in the manifest, and you got them. Now, you *also* need to ask the user at runtime whether you can have permission&hellip; and the user might say &ldquo;no&rdquo;, or even &ldquo;no, and please stop asking&rdquo;. Even if the user grants you permission, the user can go into Settings and revoke the permission later on. In this workshop, we will explore these changes to Android&rsquo;s permissions system and their ramifications on your app. Along the way, you will have the opportunity to participate, hands-on, as we take an existing Android app and add support for Android 6.0 runtime permissions.<br><br>(NOTE: Those interested in participating in the hands-on portion should bring a notebook with Android Studio and the Android 6.0 SDK bits installed. Those preferring to watch the presenter do all the work are welcome to bring popcorn.)</p>
+							<div class="person"><div class="pic"><img src="img/speakers/mark_murphy.jpg" alt="Mark Murphy"></div><p>Mark Murphy</p></div>
+							<div class="talks">
+								<a class="preso" href="https://commonsware.com/presos/androidSummit2015" target="_blank">View the Slides</a>
+							</div>
+							<a href="#" class="close">Close window</a>
+						</article>
+						<article class="h6 clickable">
+							<h5>Workshop: Android Wear APIs</h5>
+							<h6>3:00 PM&ndash;4:30 PM <span>&#8226; Jordan Arietta, Kevin Moore, &amp; Surendra Devarashetty</span></h6>
+							<p>Android Wear is the official wearable SDK provided by Google. In this working session, you&rsquo;ll learn how to set up your local Android Studio Environment and create a Wear compatible application. We&rsquo;ll deep dive further into the architecture of Wear and the Data Layer API to send and receive data from the handheld to a paired wear device.<br><br>Requirements: Laptop with Android Studio installed.</p>
+							<div class="person"><div class="pic"><img src="img/speakers/jordan_arrieta.jpg" alt="Jordan Arietta"></div><p>Jordan Arietta</p></div>
+							<div class="person"><div class="pic"><img src="img/speakers/kevin_moore.jpg" alt="Kevin Moore"></div><p>Kevin Moore</p></div>
+							<div class="person"><div class="pic"><img src="img/speakers/surendra_devarashetty.jpg" alt="Surendra Devarashetty"></div><p>Surendra Devarashetty</p></div>
+							<div class="talks">
+								<a class="preso" href="presos/android_wear_arrieta_moore_devarashetty.pdf" target="_blank">View the Slides</a>
+							</div>
+							<a href="#" class="close">Close window</a>
+						</article>
+					</div>
+					<div class="design">
+						<article class="h4 clickable">
+							<h5>Workshop: Motion is Meaning</h5>
+							<h6>1:30 PM&ndash;2:30 PM <span>&#8226; Kim Spencer &amp; Bonnie Sampson</span></h6>
+							<p>Motion is meaningful and appropriate, serving to focus attention and maintain continuity.<br><br>The concept of motion as meaning will be explored in a full-on, analog approach to Material Design. Attendees will engage in activities to explore the physical qualities of Material Design in a three-dimensional environment. In these activities, we&rsquo;ll examine how paper moves and interacts with other components, and how it changes within similar and dissimilar contexts. Ultimately we&rsquo;ll address what are we conveying to users through motion.</p>
+							<div class="person"><div class="pic"><img src="img/speakers/kim_spencer.jpg" alt="Kim Spencer"></div><p>Kim Spencer</p></div>
+							<div class="person"><div class="pic"><img src="img/speakers/bonnie_sampson.jpg" alt="Bonnie Sampson"></div><p>Bonnie Sampson</p></div>
+							<a href="#" class="close">Close window</a>
+						</article>
+						<article class="h2 clickable">
+							<h5>Blending Brand and Material Design</h5>
+							<h6>2:30 PM&ndash;3:00 PM <span>&#8226; Dan Cottner</span></h6>
+							<p>When Material Design was first announced I was ecstatic. Finally, Google had a platform-unifying design theory that was thoughtful, beautiful, and overflowing with user experience possibilities. But there wasn&rsquo;t any guidance on how brand personality could be blended into the Material Design system.<br><br>Until now. With the help of Google, some Material Design Award-winning apps, and The Breakfast Club, I&rsquo;ll describe various brand attributes, then outline strategies for incorporating them into Material Design.</p>
+							<div class="person"><div class="pic"><img src="img/speakers/dan_cottner.jpg" alt="Dan Cottner"></div><p>Dan Cottner</p></div>
+							<div class="talks">
+								<a class="preso" href="presos/brand_material_design_cottner.pdf" target="_blank">View the Slides</a>
+							</div>
+							<a href="#" class="close">Close window</a>
+						</article>
+						<article class="h2 clickable">
+							<h5>Prototyping Interactions Quickly</h5>
+							<h6>3:00 PM&ndash;3:30 PM <span>&#8226; Richie Hollins</span></h6>
+							<p>There are plenty of simple screen-to-screen prototyping tools out there, which are great for showing overall user experience and how to get from Point A to Point B. But what about those delightful, meaningful transitions that give Material Design its polish and whimsy? How can you visually communicate that precise choreography?<br><br>With Pixate!<br><br>This is a crash-course in quickly prototyping interactions using Pixate. You&rsquo;ll learn how to create complete app prototypes, or carefully choreographed interactions that look and feel like the real thing. Plus, you can share them with your product teams or clients so they can experience them on their own Android or iOS devices.</p>
+							<div class="person"><div class="pic"><img src="img/speakers/richie_hollins.jpg" alt="Richie Hollins"></div><p>Richie Hollins</p></div>
+							<div class="talks">
+								<a class="preso" href="presos/prototyping_quickly_hollins.pdf" target="_blank">View the Slides</a>
+							</div>
+							<a href="#" class="close">Close window</a>
+						</article>
+						<article class="h2 clickable">
+							<h5>Transitioning from iOS to Android</h5>
+							<h6>3:30 PM&ndash;4:00 PM <span>&#8226; Sara Beaver &amp; Sarah Gould</span></h6>
+							<p>In which Sara and Sarah give an overview of the major differences between iOS and Android, specifically related to the visual design and user experience of the Capital One Wallet app.</p>
+							<div class="person"><div class="pic"><img src="img/speakers/sara_beaver.jpg" alt="Sara Beaver"></div><p>Sara Beaver</p></div>
+							<div class="person"><div class="pic"><img src="img/speakers/sarah_gould.jpg" alt="Sarah Gould"></div><p>Sarah Gould</p></div>
+							<div class="talks">
+								<a class="preso" href="presos/ios_to_android_beaver_gould.pdf" target="_blank">View the Slides</a>
+							</div>
+							<a href="#" class="close">Close window</a>
+						</article>
+						<article class="h2 clickable">
+							<h5>Talk Back, I Dare You: Making Android Accessible</h5>
+							<h6>4:00 PM&ndash;4:30 PM <span>&#8226; Jeff Goss &amp; Katie Thompson</span></h6>
+							<p>Jeff and Katie will start off by breaking down what it means to be accessible. Then they&rsquo;ll take you through the process of identifying key accessibility challenges, designing for an optimal experience, and implementing that experience in code. With a bit of extra thought and effort, products can be truly life changing for those using assistive technologies.</p>
+							<div class="person"><div class="pic"><img src="img/speakers/jeff_goss.jpg" alt="Jeff Goss"></div><p>Jeff Goss</p></div>
+							<div class="person"><div class="pic"><img src="img/speakers/katie_thompson.jpg" alt="Katie Thompson"></div><p>Katie Thompson</p></div>
+							<div class="talks">
+								<a class="preso" href="presos/talkbalk_dare_you_goss_thompson.pdf" target="_blank">View the Slides</a>
+							</div>
+							<a href="#" class="close">Close window</a>
+						</article>
+					</div>
+				</div>
+				<div class="single">
+					<article></article>
+					<article class="h1">
+						<h5>&nbsp;</h5>
+					</article>
+					<article class="h3 clickable">
+						<h5>Sponsored Android Demos</h5>
+						<h6>4:45 PM&ndash;5:30 PM <span>&#8226; Capital One</span></h6>
+						<p>As an event sponsor, Capital One is excited to showcase some of it&rsquo;s recent Android work!</p>
+						<a href="#" class="close">Close window</a>
+					</article>
+					<article class="h6">
+						<h5>Food &amp; Beer!</h5>
+						<h6>5:30 PM&ndash;7:00 PM</h6>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="location">
+		<div class="wrap cf">
+			<section class="card locale cf">
+				<div class="pic"></div>
+				<div class="text">
+					<p>Sept<span>ember</span> 30, 2015</p>
+					<h5>Capital One DIG <span>Event Space</span></h5>
+					<p>Vienna, VA</p>
+					<a href="https://www.google.com/maps/place/8020+Towers+Crescent+Dr/@38.9151579,-77.2203739,17z/data=!3m1!4b1!4m2!3m1!1s0x89b64ae7b529801f:0xa640d04f3eb213ed" target="_blank">Get Directions</a>
+				</div>
+			</section>
+		</div>
+	</section>
+	
+	<section id="sponsor">
+		<div class="wrap">
+			<h4>Sponsor</h4>
+			<a href="https://www.capitalone.com" target="_blank" class="logo"><img src="img/cof_logo.png" alt="Capital One"></a>
+		</div>
+	</section>
+	
+	<section id="questions">
+		<div class="wrap">
+			<h4>Questions?</h4>
+			<h5>Email us at <a href="mailto:info@androidsummit.org">info@androidsummit.org</a></h5>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="wrap cf">
+			<div class="lefty">
+				<p>Android<span>Summit</span></p>
+			</div>
+			<div class="righty">
+				<p>&copy;2015 All rights reserved. Design by <a href="http://richiehollins.net" target="_blank">Richie Hollins</a>.</p>
+				<p>Corporate logos are used with permission from trademark owners. Online ticketing by <a href="https://www.eventbrite.com/" target="_blank">Eventbrite</a>.</p>
+			</div>
+		</div>
+	</footer>
+
+
+	<div id="modal">
+		<div class="blackout"></div>
+	</div>
+
+</body>
+</html>
