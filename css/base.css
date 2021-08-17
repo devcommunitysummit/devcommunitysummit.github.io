@@ -407,7 +407,7 @@ h1 span							{ font-weight:300; }
 								  -webkit-transition:all ease-out 300ms; -moz-transition:all ease-out 300ms; -ms-transition:all ease-out 300ms; transition:all ease-out 300ms; }
 .big_card h2					{ font-size:28px; line-height:36px; font-weight:300; padding:22px 48px 16px; text-align: center;}
 .big_card h3					{ font-size:16px; line-height:24px; font-weight:400; color:#727272; padding:0 48px 20px; text-align: center; }
-.big_card h3 span				{ display:inline-block; margin-right:36px; margin-bottom: 12px;}
+.big_card h3 span				{ margin-right:36px; margin-bottom: 12px;}
 .big_card h3 span:last-child	{ margin-right:0; margin-bottom: 12px;}
 .big_card h3 span b				{ font-weight: 800; color: #494949;}
 
