@@ -453,7 +453,7 @@ h1 span							{ font-weight:300; }
 */
 #news							{ opacity:0; padding-bottom:76px; overflow:hidden; }
 #news .wrap 					{ text-align:center; width:60%; }
-.showtime #news					{ margin-top:-64px; opacity:1; -webkit-transition:all ease-out 300ms; -moz-transition:all ease-out 300ms; -ms-transition:all ease-out 300ms; transition:all ease-out 300ms; 
+.showtime #news					{ padding: 60px 0 80px; opacity:1; -webkit-transition:all ease-out 300ms; -moz-transition:all ease-out 300ms; -ms-transition:all ease-out 300ms; transition:all ease-out 300ms; 
 								  -webkit-transition-delay:900ms; -moz-transition-delay:900ms; -ms-transition-delay:900ms; transition-delay:900ms; }
 .notime #news					{ margin-top:0; opacity:1; }
 
@@ -488,7 +488,7 @@ h1 span							{ font-weight:300; }
  |__/|__/_//_/\_,_/\__/  \__/\___/  \__/_\_\/ .__/\__/\__/\__/ 
                                            /*/                 
 #expect							{ opacity:0; padding-bottom:76px; }
-.showtime #expect				{ margin-top:-64px; padding:60px 0 80px; opacity:1; -webkit-transition:all ease-out 300ms; -moz-transition:all ease-out 300ms; -ms-transition:all ease-out 300ms; transition:all ease-out 300ms; 
+.showtime #expect				{ margin-top:-114px; padding:60px 0 80px; opacity:1; -webkit-transition:all ease-out 300ms; -moz-transition:all ease-out 300ms; -ms-transition:all ease-out 300ms; transition:all ease-out 300ms; 
 								  -webkit-transition-delay:900ms; -moz-transition-delay:900ms; -ms-transition-delay:900ms; transition-delay:900ms; }
 .notime #expect					{ margin-top:0; padding:60px 0 80px; opacity:1; }
 
@@ -575,13 +575,13 @@ h1 span							{ font-weight:300; }
 								  -webkit-transition:all ease-out 250ms; -moz-transition:all ease-out 250ms; -ms-transition:all ease-out 250ms; transition:all ease-out 250ms; }
 #speakers .keynote .mini 				{ display:none; cursor:pointer; }
 #speakers .keynote .maxi 				{ padding:24px 24px 28px; }
-#speakers .keynote .maxi .profile		{ float:left; width:28%; }
+#speakers .keynote .maxi .profile		{ float:left; width:250px; }
 #speakers .keynote .maxi .bio			{ float:left; width:66%; }
 #speakers .keynote .maxi .pic			{ width:80px; height:80px; border-radius:50%; overflow:hidden; margin:0 auto 10px; display:block; background:#d6dadd; }
 #speakers .keynote .maxi .pic img		{ width:100%; height:auto; }
 #speakers .keynote .maxi h6				{ font-size:24px; line-height:28px; font-weight:300; }
 #speakers .keynote .maxi h7				{ font-size:13px; line-height:16px; color:#727272; margin-bottom:0; display:block; }
-#speakers .keynote .maxi p				{ height:auto; color:#727272; overflow:visible; text-overflow:initial; display:block; text-align:left; }
+#speakers .keynote .maxi p				{ height:auto; color:#727272; overflow:visible; text-overflow:initial; display:block; text-align:left; padding-block-end: 6px;}
 #speakers .keynote .maxi p a:hover,
 #speakers .keynote .maxi p a:focus		{ text-decoration:underline; }
 
