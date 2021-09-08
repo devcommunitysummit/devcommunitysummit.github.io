@@ -638,7 +638,7 @@ h1 span							{ font-weight:300; }
 
 #agenda							{ background:#212121; color:#fff; padding:60px 0 80px; }
 #agenda h4:after				{ background:#de185b; }
-#agenda .the_field				{ height:960px; position:relative; }
+#agenda .the_field				{ height:610px; position:relative; }
 #agenda .the_field.day2			{ height:840px; position:relative; }
 
 #agenda .agenda_nav				{ display:none; box-shadow:0 4px 6px rgba(0,0,0,0.7); margin:12px 0 40px; }
