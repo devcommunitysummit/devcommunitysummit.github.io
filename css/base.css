@@ -669,6 +669,12 @@ h1 span							{ font-weight:300; }
 #agenda .double 				{ position:relative; width:84%; margin:0 auto; }
 #agenda .double .dev_talk		{ width:calc(50% - 2px); float:left; margin-right:3px; }
 #agenda .double .dev_workshop	{ width:calc(50% - 2px); float:right; }
+
+#agenda .triple 				{ position:relative; width:84%; margin:0 auto; }
+#agenda .triple .dev,			
+#agenda .triple .dev_talk		{ width:calc(33.33% - 2px); float:left; margin-right:3px; }
+#agenda .triple .dev_workshop	{ width:calc(33.33% - 2px); float:right; }
+
 #agenda .quad	 				{ position:relative; width:84%; margin:0 auto; }
 #agenda .quad .dev,
 #agenda .quad .dev2				{ width:calc(25% - 2px); float:left; margin-right:3px; }
@@ -795,8 +801,10 @@ h1 span							{ font-weight:300; }
 	#agenda .lines li span		{ display:none; }
 	#agenda .single,
 	#agenda .double,
+	#agenda .triple,
 	#agenda .quad				{ width:92%; margin:0 0 0 8%; }
 	#agenda .double > div,
+	#agenda .triple > div,
 	#agenda .quad > div			{ width:100%!important; float:none!important; }
 	#agenda .quad .dev			{ width:49%!important ; float:left!important; }
 	#agenda .quad .dev2			{ width:49%!important ; float:right!important; margin-right:0; }
@@ -826,6 +834,7 @@ h1 span							{ font-weight:300; }
 	#agenda .lines li				{ padding-left:0; }
 	#agenda .single,
 	#agenda .double,
+	#agenda .triple,
 	#agenda .quad					{ width:88%!important; margin:0 0 0 11%; }
 	
 	#agenda .design, #agenda .dev	{ width:100%; }
